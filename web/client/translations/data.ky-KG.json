@@ -1,0 +1,3124 @@
+{
+    "locale": "ky-KG",
+    "messages": {
+        "Language": "Тил",
+        "msgId0": "{name} took {numPhotos, plural, =0 {no photos} =1 {one photo} other {# photos}} on {takenDate, date, long}.",
+        "htmlTest": "{name} {surname}",
+        "about_title": "О",
+        "aboutLbl": "О",
+        "about_p0-0": "MapStore – бул катардагы картографиялык китепканаларды колдонуу менен веб-картографиялык тиркемелерди түзүүчү инфраструктура, булар",
+        "about_p0-1": "жана",
+        "about_p1": "MapStore тиркемесинин бир канча түрлөрү бар:",
+        "about_ul0_li0": "MapViewer – бул жөнөкөй долбоорлонгон карталарыд алдын ала көрсөтүүчү (GeoStore жардамын менен маалыматтар базасында шарттуу эмес сакталат)",
+        "about_ul0_li1": "MapPublisher бул жөнөкөй жана түшүнүктүү ыкма менен карталарды жана гибриддик тиркемелерди түзүү, сактоо жана биргелешип пайдалануу үчүн, негизги маалыматты Google Maps жана OpenStreetMap сыяктуу белгилуу булактардан же OGC WMS, WFS, WMTS же Тмс сыяктуу жана башка ачык протоколдорду колдонгон уюмдардын көрсөткөн кызматтарынан тандоо үчүн иштелип чыккан. Кошумча маалымат алуу үчүн, текшериңиз",
+        "about_h20": "Лицензия",
+        "about_p3": "MapStore – бул ачык коду менен OpenLayers, Leaflet жана ReactJS негизинде бекер программалык камсыздоо жана BSD жөнөкөйлөтүлгөн лицензия менен лицензияланган.",
+        "about_p5-0": "Кошумча маалымат алуу үчүн көрүңүз",
+        "about_a0": "бул",
+        "about_p5-1": "бет.",
+        "about_h21": "Насыялар",
+        "about_p6": "MapStore аткарылды:",
+        "enable": "иштетүү",
+        "layers": "катмарлар",
+        "warning": "Эскертүү",
+        "errorTitleDefault": "Ката",
+        "errorDefault": "Ката кетти",
+        "pageInfoShowMore": "Жыйынтык {count} ичинен {total}",
+        "showMore": "Көбүрөөк көрсөтүү...",
+        "collapse": "Жаап коюу",
+        "expand": "Кеңейтүү",
+        "Forbidden": "Четке кагылды",
+        "version": {
+            "label": "Версия"
+        },
+        "errorPage": {
+            "title":" Ой, бир жерден ката кетти",
+            "subtitle":" MapStore өчүрүп күйгүзүү үчүн төмөндөгү сүрөтчөнү басыңыз",
+            "description":" Эгер сиз бул ката жөнүндө билдиргиңиз келсе, анда биздин электрондук почтага билдирүүлөрүбүздү жөнөтсөңүз болот",
+            "descriptionAdmin":"Сураныч, админстраторго кайрылыңыз"
+        },
+        "autorefresh": {
+            "of": "дан",
+            "updating": "Жаңыртуу...",
+            "layers": "катмарлар"
+        },
+        "localeErrors": {
+            "404": "Котормо файлы табылган жок"
+        },
+        "details": {
+            "title": "Карта жөнүндө"
+        },
+        "showEmptyMessageGFI": "GetFeatureInfo панелиндеги бош натыйжалар жөнүндө билдирүүнү көрсөтүү",
+        "remove": "Өчүрүү",
+        "removeThumbnail": "Кыска жолду өчүрүү",
+        "layerProperties": {
+            "windowTitle": "Катмардын касиеттери",
+            "title": "Аталышы",
+            "name": "Аты",
+            "group": "Тобу",
+            "general": "Жалпы",
+            "description": "Сүрөттөмө",
+            "display": "Дисплей",
+            "style": "Стили",
+            "transparent": "Тунук",
+            "singleTile": "жалгыз Тайл",
+            "cached": "кэш параметрлерин колдонуу",
+            "styleCustom": "Стилди колдонуңуз \"{value}\"",
+            "styleListLoadError": "Стил баракчасын жүктөөдө ката кетти",
+            "stylesRefreshList": "Стилдер тизмесин жаңылоо",
+            "format": "Формат",
+            "delete": "Өчүрүү",
+            "deleteLayer":"Катмарды өчүрүү",
+            "deleteLayerMessage": " Бул катмарды чын эле өчүргүнүз келеби?",
+            "deleteLayerGroup":"Топту өчүрүү",
+            "deleteLayerGroupMessage": " Бул топту жана анын бардык катмарларын чын эле өчүргүнүз келеби?",
+            "confirmDelete": "Сиз макулсузбу?",
+            "featureTypeError": "Катмардын атрибуттары жүктөлбөй жатат",
+            "featureTypeErrorInvalidJSON": " Катмар атрибуттары жүктөлбөй жатат. Жооп туура эмес",
+            "elevation": "Бийиктиги",
+            "titleTranslations": "Аталыштын котормосу",
+            "groupProperties": "Топтун касиеттери",
+            "featureInfo": "Объект жөнүндө маалымат",
+            "featureInfoFormatLbl": "Жооптун форматын аныктап алыңыз",
+            "legenderror": "Легенда жеткиликтүү эмес",
+            "editCustomFormat": " Ыңгайлаштырылган форматты өзгөртүү",
+            "exampleOfResponse": "Мисалы",
+            "changedSettings": "Орнотууларды өзгөртүү",
+            "changedSettingsAlert": " Өзгөртүүлөрдү сактабастан, орнотуу панелин жаап салуудасыз",
+            "textFormatTitle": "ТЕКСТ",
+            "textFormatDescription": " Объекттин маалыматын текст катары көрсөтүү",
+            "htmlFormatTitle": "HTML",
+            "htmlFormatDescription": " Объект жөнүндө маалыматты HTML катары көрсөтүү",
+            "propertiesFormatTitle": "КАСИЕТТЕРИ",
+            "propertiesFormatDescription": " Объект жөнүндө маалыматты касиеттердин тизмеси катары көрсөтүү",
+            "templateFormatTitle": "ШАБЛОН",
+            "templateFormatDescription": " Объект жөнүндө маалыматтын көрсөтүлүшүн орнотуу",
+            "templateFormatInfoAlert1": " Жаңы шаблон кошуу үчүн Өзгөртүү деген баскычын басыңыз.",
+            "templateFormatInfoAlert2": "Каситеттерди түрүп коюп экрандан көрсөтүү үчүн ${attribute} колдонуу",
+            "templateFormatInfoAlertExample": "Объекттин id идентификатору ${ properties }",
+            "templatePreview": "Шаблонду алдын ала көрүү",
+            "tooltip": {
+                "label": "Айтып берүү",
+                "title": "Аталышы",
+                "description": "Сүрөттөмө",
+                "both": "Аталышы жана сүрөттөмө",
+                "none": "Айтып берүү жок",
+                "labelPlacement": "Жайгаштыруу",
+                "right": "Оңго",
+                "left": "Солго",
+                "bottom": "Ылдый",
+                "top": "Өйдө"
+            },
+            "legendOptions": {
+              "title": "Легенда",
+              "legendWidth": "Туурасы",
+              "legendHeight": "Бийиктиги",
+              "legendPreview": "Алдын ала көрүү"
+            },
+            "enableLocalizedLayerStyles": {
+                "label": "Локалдаштырылган стилди кошуу",
+                "tooltip": " Эскертүү: бул параметр белгилүү GeoServer орнотмосун талап кылат"
+            }
+        },
+        "longitude": "Узундук",
+        "latitude": "Кеңдик",
+        "notification": {
+            "update": "Жаңылоо",
+            "warning": "Эскертүү",
+            "success": "Ийгилик",
+            "backgroundLayerNotSupported": " Бул картанын түрү үчүн мурун тандалган фондук режим колдоого алынбайт. Биринчи жеткиликтүү түрүн колдонуңуз.",
+            "noBackgroundLayerSupported": " Картанын бул түрү үчүн колдоого алынуучу фондук катмарлар жок.",
+            "updateOldMap": " Бул эски карта, андыктан бардык мүмкүнчүлүктөр иштетилбейт. Картаны жаңыртуу үчүн жаңыртуу баскычын басыңыз, же жаңырткыңыз келбесе, бул эскертмени жөн гана жокко чыгарыңыз.",
+            "warningSaveUpdatedMap": "Кээ бир катмарлар туура эмес жаңыртылган",
+            "saveUpdatedMap": "Баардык катмарлар ийгиликтүү жаңыртылды",
+            "incompatibleBackgroundAndProjection":" Сиз тандаган проекция фонго туура келбейт, шайкеш - же бош - фонго өтүп, андан кийин ошол проекцияны тандаңыз!",
+            "incompatibleDataAndProjection":" Учурдагы катмар (лар) жана картанын проекциясы толугу менен шайкеш келбейт. Картада маалыматтар толугу менен же жарым-жартылай көрсөтүлбөшү мүмкүн."
+        },
+        "dock": {
+            "row": "{rowsSelected} тандалган сап",
+            "rows": "{rowsSelected} тандалган саптар"
+        },
+        "globeswitcher": {
+            "tooltipDeactivate": "3D режиминен чыгуу",
+            "tooltipActivate": "3D режимине кирүү"
+        },
+        "cookie":{
+            "info": " Бул вебсайт тажрыйбаңызды жакшыртуу үчүн cookie файлдарын колдонот. Биз буга макулсуз деп ойлойбуз, эгер кааласаңыз мындан баш тарта аласыз.",
+            "moreDetailsButton": "Көбүрөөк маалымат",
+            "leave": "Чыгуу",
+            "accept": "Кабыл алуу"
+        },
+        "background": "Фон",
+        "language": "Тил",
+        "mousePositionCoordinates": "Координат индикатору",
+        "mouseCoordinates": "Координатары:",
+        "mousePositionCRS": "CRS:",
+        "mousePositionElevation": "Выс.:",
+        "mousePositionNoElevation": "Н/Д",
+        "elevationLoading": "Жүктөө...",
+        "elevationLoadingError": "Ката",
+        "elevationNotAvailable": "Н/Д",
+        "mapScale": "Масштаб:",
+        "showMousePositionCoordinates": "Көрсөтүү / Координатарды жашыруу",
+        "menu": "Меню",
+        "options": "параметрлери",
+        "settings": "Оңдоолор",
+        "help": "Жардам",
+        "docs": "Док.",
+        "gohome": "Башкы бетке кайтуу",
+        "back": "Импортерго кайтуу",
+        "printbutton": "Басып чыгаруу",
+        "annotationsbutton": "Комментарийлер",
+        "noresultfound": "Жыйынтык табылган жок",
+        "save": "Сактоо",
+		"saveAs": "...катары сактоо",
+        "opacity": "Тунук эмес",
+        "elevation": "Бийиктик",
+        "close": "Жабуу",
+        "cancel": "Жокко чыгаруу",
+        "no": "Жок",
+        "yes": "ооба",
+        "confirm": "Ырастоо",
+        "confirmTitle": "Сиз макулсузбу?",
+        "pageInfo": "{total, plural, =0 {Нет Результатов} =1 {{total} Найдено из {total}} other {Найдено {start}-{end} из {total}}}",
+        "loading": "Жүктөө...",
+        "group": "Топ",
+        "groups": "Топтор",
+        "permission": "Уруксат",
+        "permissions": "Уруксаттар",
+        "global": {
+            "colors": {
+                "red": "{number, plural, =0 {Red} =1 {Red} other {Reds}}",
+                "blue": "{number, plural, =0 {Blue} =1 {Blue} other {Blues}}",
+                "green": "{number, plural, =0 {Green} =1 {Green} other {Greens}}",
+                "gray": "{number, plural, =0 {Gray} =1 {Gray} other {Grays}}",
+                "jet": "{number, plural, =0 {Jet} =1 {Jet} other {Jet}}",
+                "brown": "{number, plural, =0 {Brown} =1 {Brown} other {Browns}}",
+                "purple": "{number, plural, =0 {Purple} =1 {Purple} other {Purples}}",
+                "random": "{number, plural, =0 {Random} =1 {Random} other {Random}}",
+                "orrd":"OrRd",
+                "pubu":"PuBu",
+                "bupu":"BuPu",
+                "oranges":"Oranges",
+                "bugn":"BuGn",
+                "ylorbr":"YlOrBr",
+                "ylgn":"YlGn",
+                "reds":"Reds",
+                "rdpu":"RdPu",
+                "greens":"Greens",
+                "ylgnbu":"YlGnBu",
+                "purples":"Purples",
+                "gnbu":"GnBu",
+                "greys":"Greys",
+                "ylorrd":"YlOrRd",
+                "purd":"PuRd",
+                "blues":"Blues",
+                "pubugn":"PuBuGn",
+                "viridis":"Viridis",
+                "spectral":"Spectral",
+                "rdylgn":"RdYlGn",
+                "rdbu":"RdBu",
+                "piyg":"PiYg",
+                "prgn":"PrGn",
+                "rdylbu":"RdYlBu",
+                "brbg":"BrBg",
+                "rdgy":"RdGy",
+                "puor":"PuOr",
+                "set2":"Set 2",
+                "accent":"Accent",
+                "set1":"Set 1",
+                "set3":"Set 3",
+                "dark2":"Dark 2",
+                "paired":"Paired",
+                "pastel2":"Pastel 2",
+                "pastel1":"Pastel 1",
+                "custom": "Custom"
+            }
+        },
+        "home":{
+            "open": "Открыть",
+            "shortDescription": "Modern webmapping with OpenLayers, Leaflet and React<br/><small>visit the <a href=\"https://mapstore.readthedocs.io/en/latest/\">documentation</a> page</small>",
+            "forkMeOnGitHub": "Fork me on GitHub",
+            "description": "MapStore был разработан для создания, сохранения и совместного использования простым и интуитивно понятным способом карт и мэшапов, созданных с использованием контента, поступающего из хорошо известных источников, таких как Google Maps и OpenStreetMap, или из услуг, предоставляемых организациями, использующими открытые протоколы, такие как OGC WMS, WFS, WMTS или TMS и так далее.<br/>Посетите сайт <a href=\"https://mapstore.readthedocs.io/en/latest/\">home page</a> для подробностей.",
+            "Applications": "Тиркемелер",
+            "Examples": "Мисалдар",
+            "LinkedinGroup": "Mapstore Linkedin Group",
+            "scrollTop": "Баракты жогору көздөй жылдыруу",
+            "footerDescription": "<small>ГОСУДАРСТВЕННОЕ АГЕНТСТВО ПО ЗЕМЕЛЬНЫМ РЕСУРСАМ ПРИ ПРАВИТЕЛЬСТВЕ КЫРГЫЗСКОЙ РЕСПУБЛИКИ | 720040, г. Бишкек,  ул. Орозбекова, 44 | тел.: + 996 312 61 02 62 | факс: + 996 312 61 02 93</small>",
+            "ml": {
+                "title": "Оставайтесь на связи и будьте в курсе всех списков рассылки",
+                "subscribe_users": "Подписка На Список Рассылки Пользователей",
+                "subscribe_devel": "Подписка На Список Рассылки Разработчиков",
+                "visit_group": "Посетите эту группу",
+                "subscribe": "Подписаться",
+                "email": "Email:"
+            },
+            "examples":{
+                "viewer":{
+                    "html":"<h3>Көрүүчү</h3><p>Жөнөкөй көрүүчү</p>"
+                },
+                "3dviewer":{
+                    "html":"<h3>3D Көрүүчү</h3><p>CesiumJS негинде жөнөкөй 3D көрүүчү</p>"
+                },
+                "manager":{
+                    "html":"<h3>Менеджер</h3><p>MapStore карталарын көрүү </p>"
+                },
+                "mouseposition":{
+                    "html":"<h3>Чычкандын жайгашуусун көзөмөлдөө</h3><p>Ынгайлаштырылган мисалдар</p>"
+                },
+                "scalebar":{
+                    "html":"<h3> Масштабды башкаруу</h3><p>> Ынгайлаштырылган мисалдар </p>"
+                },
+                "layertree":{
+                    "html":"<h3>Катмарлардын кеңейтилген дарагы</h3><p>> Ынгайлаштырылган мисалдар </p>"
+                },
+                "queryform":{
+                    "html":"<h3>Сурам конструктору</h3><p>> Ынгайлаштырылган мисалдар </p>"
+                },
+                "featuregrid":{
+                    "html":"<h3>Объект редактору</h3><p>> Ынгайлаштырылган мисалдар </p>"
+                },
+                "print":{
+                    "html":"<h3>Басып чыгаруу</h3><p>> Ынгайлаштырылган мисалдар </p>"
+                },
+                "plugins":{
+                    "html":"<h3>Плагиндер</h3><p>Өзүңүздүн тиркемеңизди түзүңүз</p>"
+                },
+                "api":{
+                    "html":"<h3>API</h3><p>Mapstor картасын өзүңүздүн тиркемеңизге кошуу үчүн API колдонуу</p>"
+                },
+                "rasterstyler":{
+                    "html":"<h3>Растр катмарынын редактору</h3><p>Растрдын стилин орнотуу</p>"
+                }
+            }
+        },
+        "cookiesPolicyNotification": {
+            "title": "Бул сайт cookie файлдарын колдонууда",
+            "message": "Биздин веб сайтты колдонууну улантуу менен, сиз cookie файлдарын колдонууга макулдугуңузду бересиз.",
+            "confirm": "Мен макулмун"
+        },
+        "manager": {
+            "openInANewTab":"Картаны ачуу",
+            "deleteMap":"Картаны өчүрүү",
+            "deleteMapMessage": "Бул картаны өчүрүүнү ырастайсызбы?",
+            "editMapMetadata":"Картанын каситеттерин өзгөртүү",
+            "mapTypes_combo": "Карта көрсөткүчтү тандаңыз:",
+            "theme_combo": "Теманы тандаңыз:",
+            "maps_title": "Карталар",
+            "locales_combo": "Тил:",
+            "featuredMaps": "Сунуштар"
+        },
+        "newMap": "Жаңы карта",
+        "newMapEmpty": "Бош Карта",
+        "newMapContext": "Мурунку Контекст",
+		"maps": {
+            "title": "Карталар",
+            "addToFeaturedMaps": "Тандалган карталарга кошуу",
+            "removeFromFeaturedMaps": "Тандалган карталардан өчүрүү",
+            "feedback": {
+                "noDetailsAvailable": "Толук маалымат жеткиликтүү эмес",
+                "successSavedMap": "Карта туура түзүлгөн",
+                "errorDeletingMap": "Картаны өчүрүүдө ката кетти",
+                "errorDeletingThumbnailOfMap": "Картанын эскиизин өчүрүүдө ката кетти",
+                "errorDeletingDetailsOfMap": "Карта жөнүндө маалыматтарды өчүрүүдө ката кетти",
+                "allResDeleted": "Карта менен байланышкан бардык ресурстар өчүрүлдү",
+                "errorFetchingDetailsOfMap": "Карта жөнүндө маалымат алууда ката кетти",
+                "details": {
+                    "deletedSuccesfully": "Бөлүктөр туура өчүрүлдү",
+                    "savedSuccesfully": "Бөлүктөр туура сакталды",
+                    "updatedSuccesfully": "Бөлүктөр туура жаңыртылды"
+                },
+                "thumbnail": {
+                    "deletedSuccesfully": "Эскиз туура өчүрүлдү",
+                    "savedSuccesfully": "Эскиз туура сакталды",
+                    "updatedSuccesfully": "Эскиз туура жаңыланды"
+                },
+                "errorWhenSaving": "Сактоо учурунда ката кетти",
+                "errorWhenUpdating": "Жаңылоо учурунда ката кетти",
+                "errorWhenDeleting": "Өчүрүү убагында ката кетти",
+                "errorSizeExceeded": "Сураныч, сүрөттөрдүн көлөмүн же сапатын төмөндөтүңүз",
+                "errorLoadingContexts": "Мазмунду жүктөөдө ката кетти"
+            },
+			"search": "Издөө.."
+		},
+        "resources": {
+            "successSaved": "Бул ресурс туура сакталды",
+            "deleteConfirmTitle": "Сиз ырастайсызбы?",
+            "deleteConfirmMessage": "Бул ресурсту өчүрүүнү ырастайсызбы?",
+            "deleteConfirmButtonText": "Өчүрүү",
+            "deleteCancelButtonText": "Жабуу",
+            "resource": {
+                "deleteResource": "Өчүрүү",
+                "editResource": "Касиеттерди түзөө",
+                "editResourceData": "Ресурстук маалыматтарды түзөө",
+                "addToFeatured": "Тандалгандарга кошуу",
+                "removeFromFeatured": "Тандалгандардан өчүрүү",
+                "showDetails": "Бөлүктөрдү көрсөтүү"
+            },
+            "contents": {
+                "title": "Мазмуну"
+            },
+            "dashboards": {
+                "newDashboard": "Мониторингдин жаңы панели",
+                "title": "Мониторингдин панели({count})",
+                "titleNoCount": "Мониторингдин панели",
+                "create": "Мониторингдин панелин түзүү",
+                "noDashboardAvailable": "Мониторингдин панели жок",
+                "createANewOne": "Жаңы түзүңүз",
+                "deleteError": "Ресурстарды өчүрүүдө ката кетти",
+                "errorLoadingDashboards": "Мониторингдин панелин жүктөөдө ката кетти"
+            },
+            "maps": {
+                "title": "Карталар ({count})",
+                "noMapAvailable": "Карта жеткиликтүү эмес",
+                "createNewOne": "Жаңы түзүү",
+                "unsavedMapConfirmTitle": "Сакталбай калган өзгөртүүлөр",
+                "unsavedMapConfirmMessage": " Сакталбай калган өзгөртүүлөрүңүздү жоготуп алгыңыз келээрин ырастайсызбы?",
+                "unsavedMapConfirmButtonText": "Чыгып кетүү",
+                "unsavedMapCancelButtonText": "Жабуу"
+            },
+            "geostories": {
+                "newGeostory": "Жаңы атлас",
+                "title": "Атластар({count})",
+                "titleNoCount": "Атластар",
+                "create": "Атлас түзүү",
+                "noGeostoryAvailable": "Жеткиликтүү атластар жок",
+                "createANewOne": "Жаңы түзүү",
+                "deleteError": "Ресурсту өчүрүү убагында ката кетти",
+                "errorLoadingGeostories": "Атласты жүктөө убагында ката кетти"
+            }
+        },
+        "map": {
+            "errorLoadingFont": "Шрифттердин топтомосу туура эмес жүктөлдү. Айрым элементтердин(мисалы, маркер белгилериндеги) көрсөтүлүшү боюнча көйгөйлөр жаралышы мүмкүн.",
+            "loading": "Жүктөө...",
+            "loadingSpinner": "Картларды жүктөө",
+            "loadingerror": "Жүктөөдө ката кетти",
+            "name": "Аты",
+            "description": "Сүрөттөлүшү",
+            "namePlaceholder": "Картанын аталышы",
+            "descriptionPlaceholder": "Картанын сүрөттөлүшү",
+            "saveTitle": "Картаны сактоо",
+            "saveText": "Учурдагы картаны сактоо керекби?",
+            "thumbnail": "Эскиз",
+            "message": "Сүрөттү көчүрүү үчүн аны сүйрөңүз же мышканы басыңыз",
+            "suggestion": "(жакшыраак 300 х 180px, эң жакшы 500kb)",
+            "errorFormat": "Колдоого алынган форматтар: png / jpg",
+            "errorSize": "Эң жогорку уруксат берилген өлчөм: 500kb",
+            "errorCustomSize": "Эң жогорку уруксат берилген размер: {maxFileSize}",
+            "error": "Сүрөттүн туура эмес форматы",
+            "savedMapTitle": "Картаны сактоо",
+            "savedMapMessage": "Карта туура сакталган",
+            "thumbnailError": {
+                "error403": "Эскизди жаңыртууга сиздин укугуңуз жок",
+                "error404": "Эскизди түзүүдө ката пайда болду",
+                "error409": "Ушундай ат менен эскиз мурунтан эле бар",
+                "errorDefault": "Тармактагы ката"
+            },
+            "mapError": {
+                "errorTitle": "Учурдагы картаны сактоо мүмкүн эмес",
+                "error403": "Картаны жаңыртууга сиздин укугуңуз жок",
+                "error404": "Картаны түзүүдө ката кетти",
+                "error409": "Ушул эле аттагы ресурс мурунтан эле бар",
+                "error500": "Сервердин ички катасы. Картанын орнотмо файлы эң жогорку өлчөмдөн ашпагандыгына ынаныңыз",
+                "errorDefault": "Тармактагы ката"
+            },
+            "permissions": {
+                "noRules": "Эрежелерсиз",
+                "addRule": "Эреже кошуңуз...",
+                "selectGroup": "Топту тандаңыз...",
+                "canView": "көрүүгө болот",
+                "canWrite": "өзгөртүүгө болот",
+                "noResult": "жыйынтыгы табылган жок",
+                "title": "Уруксат топтому"
+            },
+            "details": {
+                "back": "Артка",
+                "save": "Сактоо",
+                "show": "Толук көрсөтүү",
+                "add": "Толук маалымат кошуу",
+                "edit": "Толук маалыматты өзгөртүү",
+                "rowTitle": "Толук маалымат барагы",
+                "title": "Толук маалымат барагы - {name}",
+                "undo": "Өчүрүүнү артка кайтаруу",
+                "showPreview": "Алдын ала көрүүнү көрсөтүү",
+                "hidePreview": "Алдын ала көрсөтүүнү жашыруу",
+                "delete": "Толук маалымат барагын өчүрүү",
+                "titleUnsavedChanges": "Сактабастан чыгасызбы?",
+                "sureToClose": "Сактабастан чыгууну ырастайсызбы?",
+                "fieldsChanged": "Айрым талаалар өзгөртүлдү"
+            },
+            "errors": {
+                "loading": {
+                    "title": "Карта жүктөөдө ката кетти",
+                    "notFound": "Карта табылган жок",
+                    "notAccessible": "Карта жеткиликтүү эмес",
+                    "unknownError": "<p><small>Себеби төмөндөгүлөрдөн бирөө:</small> <ul><li>сиздин кирүүгө укугуңуз жок</li> <li>базада жок картаны ачууга аракет кылып жатасыз</li> <li>карта өчүрүлгөн</li> <li>картанын проекциясы орнотулган эмес</li> </ul> <p>",
+                    "projectionError": "Картанын проекциясы {projection} орнотулган эмес",
+                    "title": "Карта не может быть просмотрена"
+                }
+            }
+        },
+        "floatinglegend": {
+            "showTOC": "Катмарларды көрсөтүү",
+            "showLegend": "Легенданы көрсөтүү",
+            "hideLegend": "Легенданы жашыруу"
+        },
+        "addgroup": {
+            "addbtn": "Кошуу",
+            "groupName": "Топтун аты"
+        },
+        "toc": {
+            "toggleLayerVisibility": "Катмардын көрүнүүсүн күйгүзүү",
+            "toggleGroupVisibility": "Топтун көрүнүүсүн күйгүзүү",
+            "displayLegendAndTools": "Легенда жана куралдарды көргөзүү",
+            "zoomToLayerExtent": "Катмарлардын бардыган көрсөтүү",
+            "addLayer": "Катмар кошуу",
+            "addLayerToGroup": "Катмарды тандалган топко кошуу",
+            "addGroup": "Топко кошуу",
+            "addSubGroup": "Тандалган топту подгруппага кошуу",
+            "toolZoomToLayerTooltip": "Тандалган катмарга чейин чоңойтуу",
+            "toolZoomToLayersTooltip": "Тандалган катмарларга чейин чоңойтуу",
+            "toolLayerSettingsTooltip": "Тандалган катмардын орнотмолору",
+            "toolGroupSettingsTooltip": "Тандалган топтун орнотмолору",
+            "toolTrashLayerTooltip": "Тандалган катмарды өчүрүү",
+            "toolTrashLayersTooltip": "Тандалган катмарларды өчүрүү",
+            "toolTrashGroupTooltip": "Тандалган топту өчүрүү",
+            "toolFeaturesGridTooltip": "Аттрибуттар таблицасын ачуу",
+            "layerFilterTooltip": "Катмар чыпкасы",
+            "toolDownloadTooltip": "Катмардын маалыматтарын чыгаруу",
+            "noFilteredResults": "Жыйынтыктар жок",
+            "filterPlaceholder": "Катмарлар чыпкасы",
+            "clearFilter": "Чыпканы тазалоо",
+            "toolReloadLayerTooltip": "Тандалган катмарды мажбурлап кайра жүктөө",
+            "toolReloadLayersTooltip": "Тандалган катмарларды мажбурлап кайра жүктөө",
+            "statusIconOpen": "Топту жабуу",
+            "statusIconClose": "Топту ачуу",
+            "grabLayerIcon": "катмарды кармап калып сорттоо",
+            "grabGroupIcon": "Топту кармап калып сорттоо",
+            "toggleLayerVisibilityWarning": "Катмардын көрүнүшүн жандырыңыз, эскертүү: катмар туура эмес жүктөлдү",
+            "createWidget": "Тандалган катмар үчүн виджет түзүңүз",
+            "editLayerProperties": "Катмардын касиеттерин түздөө",
+            "browseData": "Атрибуттар таблицасын ачуу",
+            "removeLayer": "Катмарды өчүрүү",
+            "loadingerror": "Катмар туура жүктөлгөн жок же жеткиликсиз",
+            "measure": "Ченем",
+            "backgroundSwitcher": "Фону",
+            "layers": "Катмарлар",
+            "drawerButton": "Катмарлар",
+            "refreshTitle": "Катмарларды жаңылоо",
+            "refreshConfirm": " Жаңылоо",
+            "refreshMessage": "Серверден WMS катмарларынын орнотмосун кайра жүктөңүз",
+            "refreshError": "Катмарларды жаңылоодо ката кетти:",
+            "epsgNotSupported": "Катмарды чоңойтуу үчүн CRS {epsg}колдоого алынбайт",
+            "filterIconEnabled": "Катмарлардын чыпкасын ажыратуу",
+            "filterIconDisabled": "Катмарлардын чыпкасын күйгүзүү",
+            "refreshOptions": {
+                "bbox": "BBOXту жаңылоо",
+                "search": "Издөө орнотмолорун жаңылоо",
+                "title": "Аталышын жаңыртуу",
+                "dimensions": "Өлчөмдөрүн жаңыртуу"
+            },
+            "layerMetadata": {
+                "identifier": "Идентификатор",
+                "title": "Аталышы",
+                "abstract": "Аннотация",
+                "purpose": "Тапшырма",
+                "source": "Булак",
+                "createdDate": "Түзүлгөн күнү",
+                "lastRevisionDate": "Акыркы кайра кароо күнү",
+                "pointsOfContact": "Байланыш маалыматтары",
+                "individualName": "Аты",
+                "organisationName": "Уюмдун аталышы",
+                "contactInfo": "Байланыш маалыматы",
+                "phone": "Телефон номери",
+                "deliveryPoints": "Жеткирүү пункту",
+                "city": "Шаар",
+                "postalCode": "Почта индекси",
+                "country": "Өлкө",
+                "URL": "URL",
+                "metadataUrl": "URL метаданныйлары",
+                "role": "Ролу",
+                "hoursOfService": "Сервистин иштөө убактысы",
+                "electronicMailAddress": "Электрондук почтанын дареги",
+                "subject": "Тема",
+                "type": "Түр",
+                "creator": "Жаратуучу",
+                "defaultPropName": "Касиеттери=\"{propName}\"",
+                "toolLayerMetadataTooltip": "Тандалган катмардын метаданныйларын көрсөтүү",
+                "layerMetadataPanelTitle": "Катмарлардын метаданныйлары",
+                "notification": {
+                    "warnigGetMetadataRecordById": "Метаданныйларды издөөдө ката кетти"
+                },
+                "itemTitles": {
+                    "pointsOfContact": "Байланыш",
+                    "default": "Пункт"
+                },
+                "emptyMetadata": "Метаданныйлар жеткиликтүү эмес"
+            },
+            "thematic": {
+                "classification_field": "Классификация талаасы:",
+                "classification_method": "Классификация методу:",
+                "classification_aggregate": "Статистикалык функция:",
+                "classification_colors": "Түс схемасы:",
+                "classification_intervals": "Аралыктар:",
+                "preview": "Алдын ала көрүү",
+                "remove_thematic": "Стилди көрүүгө кайтуу",
+                "values": {
+                    "equalInterval": "Барабар аралыктар",
+                    "quantile": "Квантиль",
+                    "jenks": "Табигый чектер",
+                    "sum": "Жыйынтык",
+                    "avg": "Орто",
+                    "count": "Саны",
+                    "min": "Эң кичинекей",
+                    "max": "Эң чоң"
+                },
+                "configuration": "Орнотмо",
+                "apply": "Классификацияны колдонуу",
+                "restore": "Орнотмону баштапкы абалга келтирүү",
+                "go_to_cfg": "Орнотуу...",
+                "go_to_thema": "Ушул орнотмону колдонуу",
+                "cfgError": "JSON орнотмосунда ката кетти",
+                "classify": "Сорттоо",
+                "remove": "Сорттоону артка кайтаруу",
+                "data_panel": "Маалыматтар",
+                "classification_stroke": "Штрих",
+                "classification_error": "Сорттоо кызматын ачуу ишке ашкан жок: {message}",
+                "fields_error": "Талаалардын тизмесин жүктөөдө ката кетти: {message}",
+                "interval_limit": " Аралыктар {min} жана {max} ортосундагы сандардан турушу керек",
+                "invalid_object": "Кызматтын жообу туура эмес",
+                "invalid_geometry": " Туура эмес геометрия бул чекит, сызык же көп бурчтук эмес",
+                "invalid_classes": "Макс должен быть больше чем мин в каждом классе"
+            },
+            "error": {
+                "defaultGroupOnTop": " {GroupTitle} тобу максаттуу топ катары коюлган, ошондуктан ал жогору жакта калышы керек"
+            }
+        },
+        "print":{
+            "paneltitle": "Басып чыгаруу",
+            "layout": "Макет",
+            "sheetsize": "Барактын өлчөмү:",
+            "legendoptions": "Легенданын орнотмолору",
+            "submit": "Басып чыгаруу",
+            "title": "Аталышы",
+            "titleplaceholder": "Аталышын жазыңыз...",
+            "description": "Сүрөттөмө",
+            "descriptionplaceholder": "Сүрөттөмөнү киргизиңиз...",
+            "resolution": "Уруксат:",
+            "defaultBackground": "OSMди фон катары колдонуу",
+            "printtooltip": "Басып чыгаруу",
+            "alternatives": {
+                "legend": "Легенданы күйгүзүү",
+                "2pages": "Легенданы өзүнчө бетке",
+                "landscape": "Пейзаждык",
+                "portrait": "Портреттик"
+            },
+            "legend": {
+                "font": "Кол тамгалардын орнотмолору:",
+                "forceLabels": "Кол тамгаларды жаңыртуу:",
+                "antiAliasing": "Шрифттерди жылмалоо:",
+                "iconsSize": "Белгинин өлчөмү:",
+                "dpi": "Dpi:"
+            },
+            "layoutWarning": "Уруксат берилген макет жок"
+        },
+        "backgroundSwither":{
+            "tooltip": "Фонду тандаңыз"
+        },
+        "info":{
+            "tooltip": "Картадагы объектти суроо"
+        },
+        "expandtoolbar": {
+            "tooltip": "Ачуу / Түрүп коюу"
+        },
+        "getFeatureInfoTitle": "Объект жөнүндө маалымат",
+        "identifyTitle": "Объект жөнүндө маалымат",
+        "identifyNoQueryableLayers": "Суроо үчүн жеткиликтүү катмарлар жок",
+        "identifyRevGeocodeHeader": "Координаттары",
+        "identifyZoomToFeature": "Объектке чейинки өлчөм",
+        "identifyStopHighlightingFeatures": "Объекттерди бөлбөө",
+        "identifyHighlightFeatures": "Объекттерди бөлүү",
+        "identifyShowCoordinateEditor": "Координаттардын түзөөсүн көрсөтүү",
+        "identifyHideCoordinateEditor": "Координаттардын түзөөсүн жашыруу",
+        "identifyCoordinateApplyChanges": "Өзгөрүүлөрдү кабыл алуу",
+        "identifyChangeCoordinateFormat": "Координаттардын форматын өзгөртүү",
+        "identifyRevGeocodeModalTitle": "Дарек",
+        "identifyRevGeocodeSubmitText": "Көбүрөөк маалымат",
+        "identifyRevGeocodeCloseText": "Жабуу",
+        "identifyRevGeocodeError": "Геокодирование жүргүзүү мүмкүн эмес",
+        "identifyEdit": "Түзөө",
+        "getFeatureInfoError": {
+            "title": "Ой! Бул жерде бир нерсе туура эмес",
+            "text": "Суроо убагында <b>GetFeatureInfo</b> ката кетти"
+        },
+        "noFeatureInfo": "Бул чекит үчүн жеткиликтүү маалымат жок",
+        "noInfoForLayers": "Кийинки катмар үчүн эч кандай объект жок:",
+        "history":{
+            "barLabel": "Карталардын тарыхы",
+            "undoBtnTooltip": "Артка",
+            "redoBtnTooltip": "Алдыга"
+        },
+        "infoFormatLbl": "Жооптун форматын аныктап алыңыз",
+        "infoTriggerLabel": "Идентификациялоо үчүн иш-чара",
+        "click": "Басуу",
+        "hover": "Алып келүү",
+        "measureSupport": {
+            "continueLine": "Сызыкты чийүүнү улантуу үчүн басыңыз",
+            "continuePolygon": "Көп бурчтук тартууну улантуу үчүн басыңыз",
+            "startDrawing": "Тартып баштоо үчүн басыңыз"
+        },
+        "measureComponent": {
+            "Measure": "Ченем",
+            "MeasureLength": "Аралыкты ченөө",
+            "MeasureArea": "Аянтты ченөө",
+            "MeasureBearing": "Азимутту ченөө",
+            "MeasureTrueBearing": "Абсолюттук азимутту ченөө",
+            "tooltip": "Узундук жана аянтты ченөө",
+            "title": "Ченем",
+            "lengthButtonText": "Сызык",
+            "areaButtonText": "Аймак",
+            "resetButtonText": "Баштапкы абалга келтирүү",
+            "lengthLabel": "Узундук",
+            "areaLabel": "Аймак",
+            "bearingLabel": "Азимут",
+            "trueBearingLabel": "Абсолюттук азимут",
+            "formula": "Аралыкты эсептөөнүн формуласы",
+            "showLabel": "Ченемдин белгисин көрсөтүү",
+            "addAsAnnotation": "Аннотация кошуу",
+            "newMeasure": "Жаңы аннотация",
+            "selectTool": "Ченем куралын тандаңыз",
+            "exportToGeoJSON": "GeoJSONга чыгаруу",
+            "resetTooltip": "Ченемдерди тазалоо",
+            "addAsLayer": "Катмар катары кошуу"
+        },
+        "search":{
+            "decimal": "Ондук",
+            "aeronautical": "Авиациялык",
+            "changeSearchInputField": "Издөө куралын өзгөртүңүз",
+            "addressSearch": "Жердин аталышы боюнча издөө",
+            "coordinatesSearch": "Координаттар боюнча издөө",
+            "searchservicesbutton": "Издөө кызматынын орнотмолору",
+            "configpaneltitle": "Издөө кызматын түзүү / түзөтүү",
+            "serviceslistlabel": "Жеткиликтүү кызматтар",
+            "overriedservice": "Демейки кызматтарды кайрадан аныктоо",
+            "addbtn": "Кошуу",
+            "nextbtn": "Кийинки",
+            "prevbtn": "Артка кайтуу",
+            "savebtn": "Түзүү / Жаңылоо",
+            "cancelbtn": "Артка кайтуу",
+            "confirmremove": "Өчүрүү?",
+            "cancelconfirm": "Өчүрүүнү ырастайсызбы?",
+            "searchByBookmark": "Кыстырмалардан издөө",
+            "bookmarksettings": "Кыстырмалардын орнотмосу",
+            "zoomToBookmark": "Тандалган кыстырманы чоңойтуу",
+            "bookmarkFilter": "Кыстырмалардын чыпкасы",
+            "editBookmark": "Кыстырмаларды түзөө",
+            "deleteBookmark": "Кыстырманы өчүрүү",
+            "b_listpaneltitle": "Кыстырмаларды көргөзүү",
+            "b_newpaneltitle": "Жаңы кыстырма кошуу",
+            "latitude": "Узундук",
+            "longitude": "Кеңдик",
+            "b_title": "Аталышы",
+            "b_layer_tooltip": "Катмардын көрүнүү мүмкүнчүлүгүн кайра жүктөө",
+            "b_bbox": "Чектелген алкак",
+            "b_bbox_tooltip": "Учурдагы көрүнүштү чектелген алкак катары колдонуу",
+            "b_bbox_south": "Түштүк",
+            "b_bbox_south_placeholder": "Түштүктү киргизүү",
+            "b_bbox_west": "Батыш",
+            "b_bbox_west_placeholder": "Батышты киргизүү",
+            "b_bbox_east": "Чыгыш",
+            "b_bbox_east_placeholder": "Чыгышты киргизүү",
+            "b_bbox_north": "Түндүк",
+            "b_bbox_north_placeholder": "Түндүктү киргизүү",
+            "bookmarkslistempty": "Кыстырма аныкталган жок",
+            "b_placeholder": "Кыстырманы тандаңыз...",
+            "b_clearvalue": "Кыстырманы тазалаңыз",
+            "b_noresult": "Кыстырма табылган жок",
+            "s_name": "Аты",
+            "s_title": "Аталышы",
+            "s_description": "Сүрөттөлүшү",
+            "s_priority": "Артыкчылык",
+            "s_url": "Url кызматы",
+            "s_layer": "Катмар",
+            "s_attributes": "Атрибуттар",
+            "s_sort": "...боюнча сорттоо",
+            "s_max_features": "Макс. объектов",
+            "s_max_zoom": "Чоңойтуунун эң жогорку деңгээли",
+            "s_wfs_props_label" : "WFS кызматынын касиеттери",
+            "s_wfs_opt_props_label" : "Кошумча касиеттер",
+            "s_result_props_label": "Жыйынтыктарды көрсөтүүлөрдүн касиеттери",
+            "s_priority_info": "Used to sort search results, lower values first. Nominatim results have priority = 5",
+            "serviceslistempty": "Колдонулуучу кызматтар аныкталган жок",
+            "service_missing": "{serviceType} Сервис орнотулган жок",
+            "generic_error": "Издөө убагында ката кетти. Катанын чоо жайы: {message}",
+            "showGFI": "GFI көрсөтүү",
+            "errors": {
+                "nonQueriableLayers": "url даректе көрсөтүлгөн катмар, суралышы мүмкүн эмес же картада көрүнбөйт",
+                "serverError": "GetFeatureInfo.сурамжылоодо сервер катаны кайрып берди, Орнотмолордун туура экендигин текшериңиз"
+            },
+            "s_launch_info_panel": {
+                "label": "Маалымат тактасын ачуу",
+                "no_info": "Маалымат жок",
+                "all_layers": "Бардык катмарлар",
+                "single_layer": "Катмарды издөө",
+                "no_info_description": "Издөө убагында идентификация тактасы көрсөтүлбөйт",
+                "all_layers_description": "Картадан көрүнгөн бардык катмарлар жөнүндө маалымат көрүнгөндө гана идентификация тактасы көрсөтүлөт",
+                "single_layer_description": "WFS аркылуу издөөдө жеткиликтүү болгон маалымат менен идентификация тактасы пайда болот",
+                "openFeatureInfoButtonCheckbox": "Функциялары жөнүндө маалымат ачуу үчүн басыңыз",
+                "forceSearchLayerVisibility": "Издөө катмарынын күйгүзүңүз"
+            },
+            "advancedSearchPanel": {
+                "title": "Өркүндөтүлгөн издөө чыпкалары",
+                "context": {
+                    "title": "Аталышы"
+                },
+                "showTooltip": "Өркүндөтүлгөн чыпкаларды көрсөтүү",
+                "showTooltipActive": "Өркүндөтүлгөн чыпкаларды көрсөтүү (иштеп жаткан)",
+                "hideTooltip": "Өркүндөтүлгөн чыпкаларды жашыруу",
+                "hideTooltipActive": "Кошумча чыпкаларды жашыруу (иштеп жаткан)"
+            }
+        },
+        "draw": {
+            "fill": "Толтуруу",
+            "text": "Текст",
+            "fontTitle": "Шрифт",
+            "color": "Түс",
+            "lineDash": "Үзүк сызык",
+            "stroke": "Штрих",
+            "opacity": "Тунук эмес",
+            "width": "Туурасы",
+            "textRotation": "Rotation",
+            "font": {
+                "textColor": "Түс",
+                "family": "Уруу",
+                "size": "Өлчөм",
+                "style": "Стил",
+                "weight": "Салмак",
+                "textAlign": "Текстти тегиздөө"
+            },
+            "marker": {
+                "layout": "Макет",
+                "shape": "Фигура",
+                "size": "Өлчөм",
+                "type": "Түрү",
+                "icon": "Белги"
+            }
+        },
+        "drawLocal": {
+            "draw": {
+                "toolbar": {
+                    "actions": {
+                        "title": "Сүрөттү артка кайтаруу",
+                        "text": "Артка кайтуу"
+                    },
+                    "undo": {
+                        "title": "Акыркы тартылган чекитти өчүрүү",
+                        "text": "Акыркы чекитти өчүрүү"
+                    },
+                    "buttons": {
+                        "polyline": "Үзүк сызык сызыңыз",
+                        "polygon": "Көп бурчтук сызыңыз",
+                        "rectangle": "Тик бурчтук сызыңыз",
+                        "circle": "Айлана сызыңыз",
+                        "marker": "Белги тартуу"
+                    }
+                },
+                "handlers": {
+                    "circle": {
+                        "tooltip": {
+                            "start": "Айлана тартуу үчүн биринчи мышканы басыңыз анан сүйрөңүз."
+                        }
+                    },
+                    "marker": {
+                        "tooltip": {
+                            "start": "Белги жайгаштыруу үчүн картаны басыңыз"
+                        }
+                    },
+                    "polygon": {
+                        "tooltip": {
+                            "start": "Фигура тартууну баштоо үчүн басыңыз.",
+                            "cont": "Фигура тартууну улантуу үчүн басыңыз.",
+                            "end": "Фигураны бириктирүү үчүн баштапкы чекитти басыңыз."
+                        }
+                    },
+                    "polyline": {
+                        "error": "Ката кетти: Четтери кесилишпеши керек!",
+                        "tooltip": {
+                            "start": "Сызык тартып баштоо үчүн басыңыз.",
+                            "cont": "Сызык тартууну улантуу үчүн басыңыз.",
+                            "end": "Сызыкты бүтүрүү үчүн акыркы чекитти басыңыз."
+                        }
+                    },
+                    "rectangle": {
+                        "tooltip": {
+                            "start": "Тик бурчтук тартуу үчүн басып туруп сүйрөңүз."
+                        }
+                    },
+                    "simpleshape": {
+                        "tooltip": {
+                            "end": "Тартууну бүтүрүү үчүн чычканды кое бериңиз."
+                        }
+                    }
+                }
+            },
+            "edit": {
+                "toolbar": {
+                    "actions": {
+                        "save": {
+                            "title": "Өзгөртүүлөрдү сактаңыз.",
+                            "text": "Сактоо"
+                        },
+                        "cancel": {
+                            "title": "Түзөтүүнү токтотуу жана өзгөрүүлөрдүн баарын артка кайтаруу.",
+                            "text": "Артка кайтуу"
+                        }
+                    },
+                    "buttons": {
+                        "edit": "Катмарды түзөтүү.",
+                        "editDisabled": "Түзөтүү үчүн катмар жок.",
+                        "remove": "Катмарларды өчүрүү.",
+                        "removeDisabled": "Өчүрүү үчүн катмарлар жок."
+                    }
+                },
+                "handlers": {
+                    "edit": {
+                        "tooltip": {
+                            "text": "Объектке түзөтүүлөрдү киргизүү үчүн белгилеринен кармап сүйрөңүз.",
+                            "subtext": "Өзгөртүүлөрдү артка кайтаруу үчүн Артка кайтаруу деген баскычты басыңыз."
+                        }
+                    },
+                    "remove": {
+                        "tooltip": {
+                            "text": "Объектти өчүрүү үчүн өзүнө басыңыз"
+                        }
+                    }
+                }
+            }
+        },
+        "locate": {
+            "tooltip": "Жайгашкан жерин көрсөтүү",
+            "tooltipDeactivate": "Жайгашкан жерди көрсөтүүнү токтотуңуз",
+            "metersUnit": "метр",
+            "feetUnit": "фут",
+            "popup": "Сиз бул точкадан {distance} {unit} аралыктасыз",
+            "outsideMapBoundsMsg": "Сиз картанын сыртында болушуңуз мүмкүн"
+        },
+        "zoombuttons": {
+            "zoomInTooltip": "Өлчөмүн чоңойтуу",
+            "zoomOutTooltip": "Өлчөмүн кийирейтүү",
+            "zoomAllTooltip": "Баардыгын көрсөтүү"
+        },
+        "fullscreen": {
+            "tooltipActivate": "Толук экранга которулуңуз",
+            "tooltipDeactivate": "Толук экран режиминен чыгуу",
+            "viewLargerMap": "Чоңойтулган картаны көрүү"
+        },
+        "helptexts": {
+            "scaleBox": "Справка для ScaleBox үчүн маалымдама",
+            "zoomToMaxExtentButton": "ZoomToMaxExtentButton баскычы үчүн маалымдама",
+            "zoomIn": "ZoomIn үчүн маалымдама",
+            "zoomOut": "ZoomOut үчүн маалымдама",
+            "searchBar": "Таба турчу жериңиздин дарегин жазыңыз. Мисалы, '1st avenue, new york'. Ушундай форматтагы координттарды да киргизсеңиз болот: 43.87, 10.20",
+            "metadataexplorer": "MetadataExplorer үчүн маалымдама",
+            "settingsPanel": "SettingsPanel панели үчүн маалымдама",
+            "gohome": "Home үчүн маалымдама",
+            "measureComponent": "Справка для для компонента MeasureComponent компоненти үчүн маалымдама",
+            "backgroundSwitcher": "BackgroundSwitcher үчүн маалымдама",
+            "layerSwitcher": "LayerSwitcher үчүн маалымдама",
+            "infoButton": "InfoButton үчүн маалымдама",
+            "locateBtn": "LocateBtn үчүн маалымдама",
+            "snapshot": "Snapshot үчүн маалымдама",
+            "print": "Print үчүн маалымдама",
+            "shapefile": "Shapefile үчүн маалымдама",
+            "rasterstyler": "Раствор катмарына жаңы классификация түзүү үчүн эң чоң, эң кичине маанилерди, класстардын санын жана түстүү распаны аныктаңыз",
+            "expandToolbar": "helptext бул кеңейтүү / түрүп коюу үчүн",
+            "historyundo": "Картанын мурунку өлчөмүнө жана жайгашкан жерине өтүү үчүн ушул баскычты колдонуңуз",
+            "historyredo": "Картанын кийинки өлчөмүнө жана жайгашкан жерине өтүү үчүн ушул баскычты басыңыз",
+            "vectorstyler": "Эреже кошуп жаңы стилдештирилген вектордук катмар түзүңүз",
+            "styler": "Эреже кошуп жаңы стилдештирилген катмар түзүңүз"
+        },
+        "queryform": {
+            "title": "Өркүндөтүлгөн издөө",
+            "query": "Издөө",
+            "apply": "иш жүзүндө колдонуу",
+            "reset": "Баштапкы абалга келүү",
+            "save": "Сактоо",
+            "discard": "Артка кайтуу",
+            "query_request_exception": "Өтүнүч аткарылган жок",
+            "config": {
+                "load_config_exception": "Орнотмо жүктөөдө ката кетти"
+            },
+            "comboField": {
+                "default_placeholder": "Тандоо…",
+                "drop_down": "Ачылуучу тизмени ачуу"
+            },
+            "form": {
+                "header": "Маалымат топтомунан табуу",
+                "dataset_header": "Маалымат топтому"
+            },
+            "emptyfilter": "Чыпкалар топтому жок. Эгер барактарга бөлүүнү сервер колдобосо, издөө көпкө созулушу мүмкүн.",
+            "attributefilter": {
+                "add_condition": "Шарт кошуу",
+                "delete": "Өчүрүү",
+                "add_group": "Топ кошуу",
+                "group_label_a": "Салыштыруу",
+                "group_label_b": "төмөндөгү шарттардан:",
+                "combo_placeholder": "Атрибут",
+                "text_placeholder": "Издөө үчүн текст жазыңыз",
+                "attribute_filter_header": "Атрибуттар чыпкасы",
+                "tooltipTextField": "колдонуңуз <b>*</b>каалаган номер үчүн каалаган белги</br>используйте <b>.</b>бир белги үчүн </br>колдонуңуз <b>!</b>  жогоруда айтылган экөөнөн алыс болуу үчүн (* жана .)</br>",
+                "groupField": {
+                    "any": "каалагандай",
+                    "all": "бардыгы",
+                    "none": "жок"
+                },
+                "numberfield": {
+                    "isRequired": "Талаанын талап кылган мааниси",
+                    "wrong_range": "Ылдыйкы чек ара жогорку чек арадан ылдый болушу керек"
+                },
+                "datefield": {
+                    "wrong_date_range": "Башталыш күнү аяктоо күнүнөн эрте болушу керек"
+                },
+                "autocomplete": {
+                    "emptyList": "Жыйынтык жок",
+                    "emptyFilter": "Чыпка эч кандай жыйынтык берген жок",
+                    "open": "Тизме талаасын ачуу"
+                }
+            },
+            "spatialfilter": {
+                "filterType": "Чыпканын түрү",
+                "geometric_operation": "Геометрикалык операция",
+                "combo_placeholder": "Тандоо...",
+                "spatial_filter_header": "Кызыгуу чөйрөсү",
+                "remove": "Өчүрүү",
+                "draw_start_label": "Картага кызыккан аймагыңызды түшүрүңүз",
+                "dwithin_label": "метр",
+                "details": {
+                    "detail_button_label": "Толук маалымат",
+                    "details_header": "Тандоо жөнүндө толук маалымат",
+                    "details_bbox_label": "Аймакты өзгөртүү үчүн координаттарды түздөңүз",
+                    "details_circle_label": "Тегеректин радиусун жана борборун өзгөртүш үчүн талаадагы сандарды өзгөртүңүз",
+                    "reset_bbox": "Баштапкы абалга кайтуу",
+                    "save_bbox": "BBOXдагы өзгөрүүлөрдү сактоо",
+                    "save_radius": "Радиустун / борбордун өзгөрүүлөрүн сактоо",
+                    "radius": "Радиус({unit})"
+                },
+                "methods": {
+                    "zone": "Аймак",
+                    "viewport": "Көрүү аймагы",
+                    "regions": "Региондор",
+                    "box": "Тик бурчтук",
+                    "buffer": "Буфер",
+                    "circle": "Тегерек",
+                    "poly": "Көп бурчтук",
+                    "cql":   "CQL"
+                },
+                "operations": {
+                    "intersects": "Кесилиш",
+                    "bbox": "Чектелген рамка",
+                    "contains": "Мазмуну",
+                    "dwithin": "Аралык ...дан",
+                    "within": "Камтыйт"
+                }
+            },
+            "crossLayerFilter": {
+                "title": "Катмар чыпкасы",
+                "targetLayer": "Башкы катмар",
+                "clear": "Чыпканы тазалоо",
+                "operation": "Операция",
+                "placeholder": "Катмарды тадаңыз",
+                "errors": {
+                    "noCrossLayerAvailable": " Катмар аралык чыпкалоо тандалган катмар үчүн жеткиликтүү эмес "
+                }
+            },
+            "changedFilter": "Чыпка өзгөртүлдү",
+            "changedFilterAlert": "Сактала элек өзгөртүүлөр бар. Өзгөртүүлөрдү сактаңыз?",
+            "resetFilter": "Чыпканы өчүрүү",
+            "confirmReset": "Ырастаңыз",
+            "loadingError": "Учурдагы чыпка картадагы катмарды көрсөтүүдө көйгөй жаратты. Сураныч, сервердин орнотмосун текшериңиз же чыпканы оңдоңуз",
+            "changedFilterWithErrorAlert": "Чыпка катмарын көрсөтүүдө ката жаратууда, баары бир сактайын дейсизби?"
+        },
+        "annotations": {
+            "errorLoadingSymbols": "Белгилердин тизмесин жүктөөдө көйгөй жаралды. Сураныч, конфигурация орнотмолорун текшерүү үчүн админстраторго кайрылыңыз.",
+            "edit": "Түзөтүү",
+            "remove": "Өчүрүү",
+            "save": "Сактоо",
+            "cancel": "Артка кайтуу",
+            "back": "Артка",
+            "applyStyle": "Стилди колдонуу",
+            "addMarker": "Жаңы геометрия кошуу",
+            "styleGeometry": "Стилди өзгөртүү",
+            "deleteGeometry": "Бардык геометря аннотациясын өчүрүп салыңыз",
+            "removeannotation": "Аннотацияны аталышы менен өчүрөсүзбү?: {title}?",
+            "removegeometry": "Аннотациянын бардык объекттерин өчүрөсүзбү?",
+            "confirm": "Өчүрүүнү ырастаңыз",
+            "mandatory": "Милдеттүү талаа",
+            "emptygeometry": "Геометрия бош болбошу керек",
+            "add": "Жаңы",
+            "filter": "Аннотациялар чыпкасы...",
+            "undo": "Аннотация түзөтүү сеансынан баш тарткыңыз келеби?",
+            "titleUndoGeom": "Геометрия өзгөртүлдү",
+            "undoGeom": "Сактабай туруп чыгып кетесизби? (Өзгөрүүлөрдүн баарын жоготуп аласыз)",
+            "confirmGeom": "Ырастаңыз",
+            "cancelModalGeom": "Артка кайтуу",
+            "deleteFeature": "Объектти өчүрүү",
+            "undoDeleteFeature": "Объектти өчүрөсүзбү?",
+            "title": "Аннотациялар",
+            "zoomTo": "Чоңойтуу",
+            "insertText": "Текст аннотациясын киргизиңиз",
+            "downloadtooltip": "Аннотацияны жүктөп алыңыз",
+            "downloadcurrenttooltip": "Учурдагы аннотацияны жүктөп алыңыз",
+            "downloadError": "Экспорттоодо ката кетти",
+            "loadtooltip": "Аннотацияларды импорттоо",
+            "loadtitle": "Импорт Аннотаций",
+            "selectfiletext": "Импорттоого аннотация файлын тандоо үчүн файлыңызды ушул жерге жайгаштырыңыз же басыңыз. (колдоого алынган файлдар: JSON)",
+            "loadoverride": "Аннотацияларды алмаштыруу",
+            "loaderror": "Бир же бир нече аннотация файлдарын тандаңыз. (колдоого алынган файлдар: json)",
+            "defaulttitle": "Аталышын өзгөртүү",
+            "field": {
+                "title": "Аталышы",
+                "description": "Сүрөттөлүшү"
+            },
+            "titles": {
+                "marker": "Белги",
+                "line": "Сызык",
+                "polygon": "көп бурчтуу сызык",
+                "text": "Текст",
+                "circle": "Айлана"
+            },
+            "editor": {
+                "decimal": "Ондук",
+                "aeronautical": "Аэронавигациондук",
+                "title": {
+                    "Polygon": "Көп бурчтукту түзөтүү",
+                    "LineString": "Сызыкты түзөтүү",
+                    "Bearing": "Азимуттарды түзөтүү",
+                    "Circle": "Айланаларды түзөтүү",
+                    "Point": "Белгилерди түзөтүү",
+                    "MultiPoint": "Сызыктарды түзөтүү",
+                    "Text": "Тексттерди түзөтүү"
+                },
+                "center": "Борбор",
+                "add": "Жаңы координаттарды кошуу",
+                "addByClick": "Кошуу деген баскычты же картанын өзүн басып, жаңы координаттарды кошуу",
+                "valid": "Геометри туура",
+                "radius": "Радиус",
+                "text": "Текст",
+                "lat": "Кеңдиги",
+                "lon": "Узундугу",
+                "notValidMarker": "Координаттарды туура киргизиңиз (+|- 90?? кеңдик, +|-180?? узундук)",
+                "notValidPolyline": "Координаттардын баардыгы туура болушу керек (+|- 90?? кендик, +|-180?? узундук)",
+                "notValidText": "Текст түрүндө жана чыныгы координаттарды киргизиңиз (+|- 90?? кеңдик, +|-180?? узундук)",
+                "notValidCircle": "Радиустун маанисин жана координаттарды орнотуңуз (+|- 90?? кеңдик, +|-180?? узундук)",
+                "newFeature": "Жаңы"
+            }
+        },
+        "user":{
+            "login": "Авторизация",
+            "logout": "Системадан чыгуу",
+            "info": "Эсеп жазууңуз жөнүндө маалымат",
+            "details": "Колдонуучу жөнүндө маалымат",
+            "noAttributesMessage": "Сиздин эсеп жазууңузга байланыштуу ал жерде эч кандай маалымат жок",
+            "changePwd": "Сыр сөздү өзгөртүү",
+            "newPwd": "Жаңы сыр сөз",
+            "retypePwd": "Жаңы сыр сөздү кайталап жазыңыз",
+            "passwordMinlenght": "Your password must be at least {minSize} character",
+            "passwordCheckFail": "Сыр сөздөр бири-бирине дал келген жок!",
+            "passwordInvalid": "Туура эмес сыр сөз",
+            "username": "Колдонуучунун аты",
+            "password": "Сыр сөз",
+            "passwordMessage": "Сыр сөз 6дан аз эмес белги камтышы керек",
+            "passwordChanged": "Сыр сөз өзгөртүлдү",
+            "passwordError": "Сыр сөздү алмаштырууда ката кетти",
+            "signIn":"Системага кирүү",
+            "loginFail":"Системага кирүүдө ката кетти",
+            "loginFailedStatusMessages": {
+                "usernamePwdInsert": "Сураныч, колдонуучунун атын жана сыр сөздү жазыңыз",
+                "usernamePwdIncorrect":"Колдонуучунун аты жана сыр сөз туура эмес жазылды"
+            },
+            "detailsName": "Аты",
+            "detailsRole": "Ролу",
+            "detailsGroups": "Тобу",
+            "detailsEmail": "E-mail",
+            "detailsCompany": "Компания",
+            "detailsNotes": "Эскертүүлөр"
+        },
+        "users": {
+            "title": "Эсеп жазууларды түзөтүү",
+            "users": "Колдонуучулар",
+            "manageUsers": "Колдонуучуларды башкаруу",
+            "searchUsers": "Колдонуучуларды издөө...",
+            "newUser": "Жаңы колдонуучу",
+            "editUser": "Колдонуучуларды түзөтүү",
+            "deleteUser": "Колдонуучуну өчүрүү",
+            "statusTitle": "статус",
+            "enabled": "Уруксат берилди",
+            "groupTitle": "Топтор:",
+            "roleTitle": "Роль",
+            "saveUser": "Сактоо",
+            "savingUser": "Сактоо...",
+            "userSaved": "Сакталды!",
+            "createUser": "Жаңы колдонуучу түзүү",
+            "creatingUser": "Түзүү...",
+            "userCreated": "Түзүлдү!",
+            "deleting": "Өчүрүү...",
+            "delete": "Өчүрүңүз",
+            "confirmDeleteUser": "Ушул колдонуучуну өчүрүүнү ырастаңыз?",
+            "errorDelete": "Ушул колдонуучуну өчүрүүдө ката кетти:",
+            "errorSaving": "Колдонуучуну сактоодо ката кетти:",
+            "selectedGroups": "ТАНДАЛГАН ТОПТОР",
+            "requiredFiedsMessage": "Жылдызча менен ( * ) белгиленген талаалар, милдеттүү түрдө толтурулушу керек"
+        },
+        "usergroups": {
+          "searchGroups": "Топторду издөө...",
+          "groups": "Топтор",
+          "nameLimit": "Аттын узундугу 255 белги менен чектелген.",
+          "descLimit": "Сүрөттөөнүн узундугу 255 белги менен чектелген.",
+          "editGroup": "Топту түзөтүү",
+          "deleteGroup": "Топту өчүрүү",
+          "removeUser": "Колдонуучуну өчүрүү",
+          "newGroup": "Жаңы топ",
+          "manageGroups": "Топторду башкаруу",
+          "description": "Сүрөттөлүшү:",
+          "noDescriptionAvailable": "(Сүрөттөлүшү жок)",
+          "groupName": "Топтун аты",
+          "groupDescription": "Сүрөттөлүшү",
+          "saveGroup": "Сактоо",
+          "createGroup": "Жаңы түзүү",
+          "creatingGroup": "Түзүү...",
+          "groupMembers": "Катышуучулары:",
+          "addMember": "Жаңы катышуучуну кошуу:",
+          "selectMemberPlaceholder": "Катышуучуну тандоо...",
+          "noUsers": "Бул топто колдонуучулар жок",
+          "errorSaving": "Бул топту сактоодо ката кетти",
+          "errorDelete": "Бул топту өчүрүүдө ката кетти",
+          "confirmDeleteGroup": "Ушул топту өчүрүүнү ырастайсызбы?"
+        },
+        "share":{
+            "title": "Бөлүшүү",
+            "titlePanel": "Карта менен бөлүшүү",
+            "socialIntro": "Сиз тандаган социалдык тармакта",
+            "directLinkTitle": "Ссылка колдонуу менен",
+            "embeddedLinkTitle": "Ички код аркылуу",
+            "social": "Коомдук",
+            "direct": "Ссылка",
+            "code": "Код",
+            "forceDrawer": "TOC көрсөтүү",
+            "apiLinkTitle": "API колдонуу",
+            "QRCodeLinkTitle": "qr-код",
+            "msgCopiedUrl": "Көчүрмө",
+            "msgToCopyUrl": "Көчүрүү үчүн басыңыз",
+            "sharedTitle": "Менин жаңы картамды көрүү:",
+            "addCenterAndZoomParam": "Борбор кошуп жайылтылган шилтемеге чейин чоңойтуу",
+            "zoom": "Жакындатуу",
+            "marker": "Жүктөлгөн картага белги кошуу",
+            "coordinate": "Координатары",
+            "coordTooltip": "Координаттарды алуу үчүн картаны басыңыз",
+            "zoomToolTip": "Эң кичине: 1 жана эң чоңу: 35",
+            "wrongCenterAndZoomParamTitle": "Борбор жана жакындатуу орнотмолору туура эмес",
+            "wrongCenterAndZoomParamMessage": " Борбор жана жакындатуу орнотмолору болушу керек center=lon,lat&zoom=value жана (+|- 90° lat, +|-180° lon, <=+35 zoom)",
+            "wrongMarkerAndZoomParamTitle": "Белгинин жана жакындатуунун орнотмолору туура эмес",
+            "wrongMarkerAndZoomParamMessage": " Белгинин жана жакындатуунун орнотмолору болушу керек marker=lon,lat&zoom=value жана (+|- 90° lat, +|-180° lon, <=+35 zoom)",
+            "advancedOptions": "Кеңейтилген орнотмолор",
+            "addBboxParam": "Жалпыга жеткиликтүү болушу үчүн, bbox орнотмосунун шилтемеси",
+            "wrongBboxParamTitle": "bbox орнотмосу жеткиликтүү эмес",
+            "wrongBboxParamMessage": "bbox орнотмолору EPSG:4326 болушу керек жана bbox=minx, miny, maxx, maxy ушундай болуп жазылышы керек",
+            "showHomeButton": "MapStore home үчүн шилтеме"
+        },
+        "snapshot": {
+            "title": "Сүрөттөрдү алдын ала көрүү",
+            "save": "Сактоо",
+            "tooltip": "Картанын тартылган сүрөтүн сактоо.",
+            "googleBingError": "Ыкчам сүрөт кылууга, автордук укуктардын чектелгендигине байланыштуу Google жана Bing катмарлары жеткиликтүү эмес.",
+            "downloadingSnapshots": "Сүрөт жаратуу үчүн күтүп туруңуз",
+            "date": "Күнү",
+            "layers": "Катмарлар",
+            "size": "Өлчөмү",
+            "notsupported": "Ыкчам сүрөт кылуу колдоого алынбайт",
+            "taintedMessage": "Ыкчам сүрөттөрдү сактоо функциялары браузердин коопсуздук эрежелеринин негизинде чектелген. Эң жакшы жыйынтыктарды алуу үчүн, алдын ала көрүүдө чычкандын оң жак баскычын басып, 'Сүрөттү төмөндөгүдөй сактоо' деген абзацты тандаңыз(Firefox жана Chromeдо колдооного алынган)."
+        },
+        "shapefile": {
+            "title": "Жергиликтүү вектор файлдарын кошуу",
+            "tooltip": " Жергиликтүү вектор файлдарын картага кошуу.",
+            "placeholder": "Импорттоого вектор файлдарын тандоо үчүн, файлдарыңызды бул жерге киргизиңиз же басыңыз. (колдоого алынган файлдар: шейп-файлдары KML/KMZ e GPX, zip-архивдерди камтышы керек,)",
+            "defaultStyle": "Стиль",
+            "zoom": "Вектордук файлдардын масштабы",
+            "error": {
+                "select": "Бир же бир нече файлдарды тандаңыз. (колдоого алынган файлдар: шейп-файлдары KML/KMZ e GPX, zip-архивдерди камтышы керек,)",
+                "shapeFileParsingError": "Вектордук файл көчүрүлбөй жатат. Файл бузулган же начар тазаланган",
+                "genericLoadError": "Вектордук файл картага көчүрүлбөй жатат",
+                "missingPrj": "Проекция жөнүндө маалымат жок (.prj), координаттар системасы EPSG:4326 болушу керек"
+            },
+            "merge": "Учурдагы аннотация катмарына жакындатуу",
+            "replace": "Учурдагы аннотация катмарын өчүрүү",
+            "add": "Кошуу",
+            "cancel": "Артка кайтуу",
+            "success": "Туура импорт кылынды",
+            "next": "Кийинки",
+            "skip": "Өткөрүп жиберүү",
+            "finish": "Аяктоо",
+            "layerOf": "{total}дан {count}катмар:"
+        },
+        "mapImport": {
+            "title": "Импорттоо",
+            "dropZone": {
+                "heading": "",
+                "selectFiles": "Файлды тандаңыз...",
+                "infoSupported": "<p><small>Картанын контекстиндеги колдоого алынган файлдар: mapstore legacy format, WMC<br />Вектор катмарындагы колдоого алынган файлдар: шейп-файлдары (zip архивдерин камтышы керек), KML/KMZ, GeoJSON же GPX</small></p>",
+                "note": "<p><small><i><strong>эскертүү</strong>: учурдагы картанын контексттик файлдары жокко чыгарылат</i></small></p>"
+            },
+            "errors": {
+                "fileNotSupported": "Файл колдоого алынбайт",
+                "unknownError": "Импорт кылуу убагында белгисиз ката кетти",
+                "projectionNotSupported": "Испорт кыла турган файлдарын проекциялары колдоого алынбайт"
+            }
+        },
+        "mapExport": {
+            "title": "Картаны экспорттоо",
+            "exportPanel": {
+                "title": "<p><h4>Керектүү форматты тандаңыз</h4></p>",
+                "exportButtonLabel": "Экспорт"
+            },
+            "formats": {
+                "mapstore2": {
+                    "label": "MapStore",
+                    "description": "<p><small>Карта орнотмолорунун форматы MapStore</small></p>"
+                },
+                "wmc": {
+                    "label": "WMC",
+                    "description": "<p><small>Веб-картанын контексттик форматы OGC</small></p>",
+                    "note": "<p><small><i><strong>эскертүү</strong>: WMC форматын колдоого алат <strong>WMS катмарын гана</strong></i></small></p>"
+                }
+            },
+            "errorTitle": "Картаны экспорттоо ийгиликтүү болгон жок",
+            "wmcNoLayersError": " WMS экспорттоо үчүн бир WMS катмары табылган жок"
+        },
+        "catalog": {
+            "start": "Башталган күнү",
+            "end": "Аяктаган күнү",
+            "notAvailable": "Жеткиликтүү эмес",
+            "title": "Каталог",
+            "autoload": "Сервис тандоо боюнча издөө",
+            "clearValueText": "Тандоону тазалоо",
+            "noResultsText": "Жыйынтыктар жок",
+            "tooltip": "Каталогду көрүү",
+            "addToMap": "Картага кошуу", 
+            "getWMSLink": "WMS шилтемесин алуу",
+            "error": "Каталогдогу жазууларды жүктөө убагында ката кетти",
+            "pageInfo": "Жыйынтыктар {start}-{end} {total}дан",
+            "resultInfo": "{total, plural, =0 {Нет Результатов} =1 {{total} Результатов из {total}} other {{start}-{end} из {total}}}",
+            "pageInfoInfinite": "{total, plural, =undefined {} =0 {Нет Результатов} =1 {{total} из {total} совпадений} other {Загружено {loaded} из {total} совпадений}}",
+            "noRecordsMatched": "Бири-бирине дал келген жазуулар жок",
+            "wmsGetCapLink": "WMS",
+            "wfsGetCapLink": "WFS",
+            "share": "Бөлүшүү",
+            "copyToClipboard": "Буферге көчүрүү",
+            "copied": "Көчүрүлдү!",
+            "textSearchPlaceholder": "Издөө үчүн текст жазыңыз...",
+            "search": "Издөө",
+            "delete": "Өчүрүү",
+            "reset": "Тазалоо",
+            "options": "Орнотмолору",
+            "srs_not_allowed": "Картанын координаттар системасы бул сервис менен колдоого алынган эмес",
+            "add": "Кошуу",
+            "service": "Сервис",
+            "servicePlaceholder": "Сервистин түрү",
+            "url": "URL",
+            "urlPlaceholder": "URLди жазыңыз",
+            "type": "Түрү",
+            "serviceTitle": "Аталышы",
+            "serviceTitlePlaceholder": "Аталышын жазыңыз",
+            "tms": {
+              "provider": "Жеткирүүчү",
+              "urlTemplate": "URL шаблону",
+              "urlTemplateHint": "<p>Өзгөрүлмөлөрдү киргизүү мүмкүнчүлүгү менен сиздин TMS колдонуу сервиси үчүн шаблон URL-дареги (башкача кашаалардын жардамы менен көрсөтүлгөн, мисалы <code>{var_name}</code>) бул тиркеме менен алмашылат.<br/>. Бул <code>{x}</code>, <code>{y}</code> и <code>{z}</code> файл сеткаларынын координаттар маанилери үчүн өзгөрүлмөлөр корголгон. Сиз ошондой эле, өзгөрүлмөлөрдү колдоно аласыз<code>{s}</code> субдомендер үчүн. URL-дарегинде көрсөтүлгөн, башка дагы бардык өзгөрүлмөлөр ички орнотмолорунда да көрсөтүлүшү керек \"Колдонулуучу TMS Орнотмолору\" (Кошумча орнотмолор)</p>",
+              "customTMSConfiguration": "Колдонулуучу TMS Орнотмолору",
+              "customTMSConfigurationHint": "<p>Орнотмолор камтышы мүмкүн:<br/><ul><li><code>\"субдомендерди\": ['a', 'b']</code>: бир канча домендер аркылуу колдонулуучу жана бири-бири менен алмаштырууга мүмкүн <code>{s}</code> URL шаблонунда</li><li><code>\"maxNativeZoom\": 20</code>: сервердин эң чоң чоңойтулушу</li></ul></p>",
+              "forceDefaultTileGrid": "Тайлдар торчосун орнотуу",
+              "forceDefaultTileGridDescription": "Түп нусканын жана уруксаттардын ордуна, сервер аркылуу жеткирилип берилген эл аралык проекциянын тайлдар торчосун колдонуңуз. Бул туура эмес булактарды же уруксаттарды жарыялаган кээ бир TMS сервиси үчүн пайдалуу."
+            },
+            "tileprovider": {
+              "tooltip": "x,y,z тайлдын орду, s бул субдомен (демейкидей)"
+            },
+            "missingReference": "OGC маалымдамасынын метаданныйлары жок",
+            "showDescription": "Толук сүрөттөмөнү көрсөтүү",
+            "hideDescription": "Толук сүрөттөмөнү жашыруу",
+            "templateFormatDescriptionExample": "Катмардын сүрөттөлүшү",
+            "showTemplate": "Метаданныйлар шаблонун көрсөтүү",
+            "showPreview": "Алдын ала көрсөтүүнү күйгүзүү",
+            "advancedSettings": "Кошумча орнотмолор",
+            "templateMetadataAvailable": "Dublin Core форматында жеткиликтүү метаданныйлар: аннотация, чек аралар, автор, жаратуучу, сүрөттөлүшү, формат, идентификатор, щилтемелер, укуктар, булактар, тема, убактылуу маалыматтар, аталышы, түрү, URI",
+            "notification": {
+                "errorTitle": "Ката!",
+                "errorSearchingRecords": "Кээ бир жазуулар табылган жок:{records} url суроосун текшериң",
+                "warningAddCatalogService": "Жеткиликтүү URL жана аталышын коюуңуз",
+                "addCatalogService": "Сервис туура кошулду",
+                "duplicatedServiceTitle": "Мындай ат менен кызмат мурунтан бар. Сураныч, атын өзгөртүңүз",
+                "serviceDeletedCorrectly": "Кызмат туура өчүрүлдү",
+                "errorServiceUrl": "Кызмат жеткиликтүү эмес.Сураныч, URLди текшериңиз"
+            },
+            "backgroundAlreadyAdded": "Фондук тандоого кошулду",
+            "enableLocalizedLayerStyles": {
+                "label": "Жергиликтүү стилди күйгүзүү",
+                "tooltip": "Эскертүү: Бул орнотмо GeoServer айрым түзөтүүлөрдү талап кылат."
+            }
+        },
+        "uploader": {
+            "filename": "Файлдын аталышы",
+            "type": "Түрү",
+            "lastModified": "Акыркы өзгөрүүлөр",
+            "filesize": "Өлчөмү",
+            "beforeUpload": "Алдын ала жүктөөнү жүргүзүү...",
+            "uploadingFiles": "Файлдарды жүктөө...",
+            "dropfile": "Жүктөө үчүн файлды бул жерге сүйрөп келиңиз",
+            "dropfileImport": "Ушул иш-чарага кошуу кошуу үчүн файлдарды бул жерге ыргытыңыз"
+        },
+        "importer": {
+            "title": "Маалыматтарды импорттоо",
+            "imports": "Импорттоо",
+            "importN": "Сессиялар {id}",
+            "creatingImportProcess": "Сессияларды импорттоону түзүү...",
+            "dropfile": "Жаңы сессияны ипорттоону түзүү үчүн, файлдарды бул жерге сүйрөп келиңиз",
+            "dropfileImport": "Бул сессияга кошуу үчүн файлдарды бул жерге сүйрөп келиңиз",
+            "process": "Сессия",
+            "number": "#",
+            "workspace": {
+                "create": "Түзүү",
+                "createWS": "Жаңы жумуш аралыгын түзүү:",
+                "target": "максаттуу жумуш аралыгы:",
+                "failure": "жумуш аймагын түзүүдө ката кетти: {statusWS}",
+                "success": "Жумуш аймагы ийгиликтүү түзүлдү.",
+                "select": "Максаттуу жумуш аралыгын тандаңыз",
+                "new": "Жаңы жумуш аймагынын аталышы..."
+            },
+            "import": {
+                "actions": "Аракеттер",
+                "tasks": "Тапшырмалар",
+                "runImport": "Кое берүү",
+                "deleteImport": "Сессияны өчүрүү",
+                "deleteTask": "Өчүрүү",
+                "status": "Статус",
+                "archive": "Архив",
+                "deleting": "Өчүрүү...",
+                "analyzing": "Анализдөө...",
+                "applyingPreset": "Пресеттерди колдонуу..."
+            },
+            "task": {
+                "panelTitle": "Пакетти импорттоо {id}",
+                "general": "Жалпы маалымат",
+                "status": "Статус",
+                "updateMode": "Жаңылоо режими",
+                "originalData": "Чыгуу файлы",
+                "file": "Аталышы",
+                "format": "Формат",
+                "targetStore": "Максаттуу сактагыч",
+                "storeType": "Сактагычтын түрү",
+                "storeName": "Сактагычтын аталышы",
+                "layer": "Катмар",
+                "transforms": "Өзгөрүүлөр чынжыры",
+                "update": "Жаңылоо",
+                "run": "Бул пакетти импорттоо",
+                "edit": "Стилди өзгөртүү",
+                "delete": "Пакетти өчүрүү"
+            },
+            "transform": {
+                "panelTitle": "Катуу өзгөрүү {id}",
+                "type": "Катуу өзгөрүүнүн түрү",
+                "actions": "Аракеттер",
+                "options": "Катуу өзгөрүүнүн түрлөрү",
+                "overviewlevels": "Көрүнүщ деңгээлдери",
+                "delete": "Катуу өзгөрүүнү өчүрүү"
+            }
+        },
+        "rasterstyler": {
+            "tooltip": "Растр катмарынын стилин түзүү жана түзөтүү",
+            "paneltitle": "Стилдин растрдык түзөтүүсү",
+            "layerlabel": "Катмар",
+            "typelabel": "Стилдин түрү",
+            "opacitylabel": "Тунук эмес",
+            "redtitle": "Кызыл",
+            "greentitle": "Жашыл",
+            "bluetitle": "Көк",
+            "graytitle": "Боз",
+            "pseudobandtitle": "Диапазонду тандоо",
+            "eqinttitle": "Бирдей аралыктар",
+            "pseudotitle": "Түстөрдүн орнотмосу",
+            "applybtn": "Стилди колдонуу"
+        },
+        "bandselector": {
+            "band": "Полоса",
+            "enhancement": "Кеңейтүү",
+            "algorithmTitle": "Милдеттүү эмес Алгоритм",
+            "value": "Мааниси",
+            "min": "Эң кичине",
+            "max": "Эң чоң",
+            "enha": {
+                "none": "Жок",
+                "Normalize": "Нормалдаштыруу",
+                "Histogram": "Гистограмма",
+                "GammaValue": "Гамма түзөтүү"
+            },
+            "algorithm": {
+                "none": "Жок",
+                "StretchToMinimumMaximum": "Чоюу",
+                "ClipToMinimumMaximum": "Кесүү",
+                "ClipToZero": "Нөлгө чейин кесүү"
+            }
+        },
+        "equalinterval": {
+           "min": "Эң кичине",
+           "max": "Эң чоң",
+           "classes": "Класстар",
+           "ramp": "Түстүү Схема",
+           "classify": "Классифицикациялоо",
+           "maxerror": "Эң чоң маани эң кичине мааниден чоң болушу керек",
+           "minerror": "Эң кичине маани эң чоң мааниден кичине болушу керек"
+        },
+        "colormapgrid": {
+            "color": "Түс",
+            "quantity": "Саны",
+            "label": "Астындагы жазуу",
+            "minmaxerror": "Мурунку жана кийинки клетканын ортосундагы маани болушу керек"
+        },
+        "pseudocolorsettings": {
+            "type": "Түрү",
+            "extended": "Кеңейтилген",
+            "colormap": "Түстүү палитра",
+            "add": "Жазуу кошуу",
+            "remove": "Жазууну өчүрүү"
+        },
+        "rasterstyletype": {
+            "rgb": "Кызыл Жашыл Көк",
+            "gray": "Боз",
+            "pseudo": "Псевдо түстөр",
+            "multi": "Көп тилкелүү",
+            "single": "Бир тилкелүү"
+        },
+        "featuregrid": {
+            "columns": "Мамычалар",
+            "header": "Издөө жыйынтыгынын тизмеси",
+            "tools": "Шаймандар панели",
+            "export": "Экспорт",
+            "selectall": "Баардыгын тандоо",
+            "deselectall": "Тандоону тазалоо",
+            "backtosearch": "Издөөгө кайтуу",
+            "resultInfo": "{total, plural, =0 {Нет Результатов} =1 {{total} Результатов из {total}} other {{start}-{end} из {total}}}",
+            "resultInfoVirtual": "{total, plural, =0 {Нет Результатов} =1 {{total} Результатов из {total}} other {{total} Результатов}}",
+            "pageInfo": "{totalPages, plural, =0 {Нет Результатов} =1 {Страница {totalPages} из {totalPages}} other {Страница {page} из {totalPages}}}",
+            "pagination": {
+                "page": "Бет",
+                "of":   "дан",
+                "to":   "га чейин",
+                "more": "көбүрөөк"
+            },
+            "noFeaturesAvailable": "Жеткиликтүү орнотмолор жок",
+            "errorSaving": "Сактоо убагында ката кетти",
+            "errorProjFetch": "spatialreference.org.ден  proj4 түрүндө мамычаларды аныктоо убагында ката кетти. Синхрондошторуу куралы аралык чыпканы колдоно албайт.",
+            "notSupportedGeometryTitle": "Геометриянын түрү колдоого алынбайт",
+            "notSupportedGeometry": "Иштеп жаткан катмардын геометриясын түзөтүү колдоого алынбайт, бирок Сиз атрибуттарды түзөтө аласыз",
+            "yesButton": "Ооба",
+            "noButton": "Жок",
+            "deleteButton": "Өчүрүү",
+            "clear": "Кылынган өзгөртүүлөрдүн бардыгын артка кайтарууга макулсузбу?",
+            "featureClose": "Объекттер торчосун жабууңузду ырастаңыз?",
+            "delete": "Элементтерди өчүрүүнү ырастаңыз?",
+            "missingGeometry": "Геометрия жок",
+            "filter": {
+                "placeholders": {
+                    "default": "Издөө...",
+                    "string": "Чыпкалоо үчүн текст жазыңыз...",
+                    "date": "Чыпкалоонун убактысын жазыңыз...",
+                    "number": "Type number or expression..."
+                },
+                "tooltips": {
+                    "editMode": "Түзөтүү убагында кыска издөө жеткиликтүү эмес.",
+                    "default": "Издөө...",
+                    "string": "Чыпкалоо үчүн текст жазыңыз...",
+                    "number": "Сан же бир нерсе жазыңыз. Мисалы: 10, > 2, < 10",
+                    "date": "Күнүн же бир нерсе жазыңыз. Убакыттын форматын {format} колдонуңуз.",
+                    "geometry": {
+                        "disabled": "Картаны басуу менен чыпкалоо",
+                        "enabled": "Жыйынтыктарды чыпкалоо үчүн картаны басыңыз",
+                        "applied": "Чычканды басуу менен чыпканы өчүрүңүз"
+                    }
+                }
+            },
+            "toolbar": {
+                "synchPopoverTitle": "Картаны чыпка менен синхрондоштуруу",
+                "synchPopoverText": "Тандалган чыпка менен картаны синхрондоштуруу үчүн ушул куралды колдонуңуз",
+                "notShowAgain": "Бул билдирүүнү көрсөтүүнүн кереги жок.",
+                "editMode": "Түзөтүү режими",
+                "advancedFilter": "Кеңейтилген издөө",
+                "quitEditMode": "Түзөтүү режиминен чыгуу",
+                "addNewFeatures": "Жаңы орнотмо киргизүү",
+                "editFeature": "Орнотмону түзөтүү",
+                "drawGeom": "Сүрөт тартуу орнотмосу",
+                "stopDrawGeom": "Геометрия түзүүнү артка кайтаруу",
+                "addGeom": "Учурдагы геометрияга форма кошуу",
+                "deleteSelectedFeatures": "Тандалган объекттерди өчүрүү",
+                "saveChanges": "Өзгөрүүлөрдү сактоо",
+                "saving": "Сактоо...",
+                "cancelChanges": "Өзгөрүүлөрдү артка кайтаруу",
+                "deleteGeometry": "Геометрияны өчүрүү",
+                "downloadGridData": "Маалымат торчосун жүктөө",
+                "hideShowColumns": "Мамычаларды Жашыруу/көрсөтүү",
+                "zoomAll": "Толук баракка чейин чоңойтуу",
+                "syncOnMap": "Картаны чыпкасы менен синхрондоштуруу",
+                "enableTimeSync": "Тандалган убакыт же убактылуу аралык менен синхрондоштуруу",
+                "disableTimeSync": " Тандалган убакыт же убактылуу аралык менен синхрондоштурбоо",
+                "createNewChart": "Тандалган катмар үчүн диаграмма түзүңүз"
+            }
+        },
+        "wfsdownload": {
+            "title": "Маалыматтарды экспорттоо",
+            "format": "Файл форматы",
+            "srs":  "Аралык байлоо системасы (SRS)",
+            "export": "Экспорт",
+            "downloadonlycurrentpage": "Учурдагы баракты гана жүктөө",
+            "error": {
+                "title": "Экспорттоо убагында ката кетти",
+                "invalidOutputFormat": "Тандалган формат экспорттоо үчүн жеткиликтүү эмес"
+            }
+        },
+        "widgets": {
+            "types": {
+                "map": {
+                    "title": "Карта",
+                    "caption": "Карта кошуу"
+                },
+                "legend": {
+                    "title": "Легенда",
+                    "caption": "Легенда кошуу"
+                },
+                "chart": {
+                    "title": "Диаграмма",
+                    "caption": "Диаграмма кошуу"
+                },
+                "text": {
+                    "title": "Текст",
+                    "caption": "Текст аймагын кошуу"
+                },
+                "table": {
+                    "title": "Таблица",
+                    "caption": "Таблица кошуу"
+                },
+                "counter": {
+                    "title": "Эсептегич",
+                    "caption": "Эсептегич кошуу"
+                }
+            },
+            "selectWidgetType": "Виджеттин түрүн тандаңыз",
+            "selectChartType": {
+                "title": "Диаграмманын түрүн тандаңыз"
+            },
+            "selectMap": {
+                "TOC": {
+                    "noLayerTitle": "Катмарлар жок",
+                    "noLayerDescription": "Картада катмарлар жок. Эгерде каталогдон катмар кошкуңуз келсе, анда өйдө жактагы куралдар панелиндеги '+' баскычын басыңыз."
+                },
+                "emptyMap": {
+                    "title": "Бош карта",
+                    "description": "Бош картадан баштоо"
+                }
+            },
+            "title": "Аталышы",
+            "description": "Сүрөттөлүшү",
+            "errors": {
+                "notext": "Текст жеткиликтүү эмес",
+                "nodata": "Тандалган катмар/чыпка үчүн жеткиликтүү маалымат жок",
+                "noLegend": "Көрсөтүү үчүн легенданын элементтери жок",
+                "noLegendDescription": " Легендада көрсөтүү үчүн Туташкан картанын катмары жок",
+                "nodatainviewport": "Учурдагы көрүү терезесинде маалымат жок",
+                "timeoutExpired": "Кызмат көпкө чейин жооп бербей жатат. Абдан татаал суроо же сервер бош эмес",
+                "genericError": "Маалыматтарды кайталап жиберүүдө ката кетти"
+            },
+            "builder": {
+                "header": {
+                    "title": "Виджет"
+                },
+                "wizard": {
+                    "backToTypeSelection": "Диаграмаанын түрүн тандоого кайтуу",
+                    "backToWidgetTypeSelection": "Виджеттин түрүн тандоого кайтуу",
+                    "backToFeatureGrid": "Объекттер торчосуна кайтуу",
+                    "backToLayerSelection": "Катмарларды тандоого кайтуу",
+                    "backToMapSelection": "Карталарды тандоого кайтуу",
+                    "backToPreview": "Алдын ала көрүүгө кайтуу",
+                    "backToChartOptions": "Диаграмманын орнотмолоруна кайтуу",
+                    "selectALayer": "Катмарды тандаңыз",
+                    "selectAMap": "Картаны тандаңыз",
+                    "configureChartOptions": "Диаграмма орнотмолору",
+                    "configureWidgetOptions": "Виждет орнотмолору",
+                    "backToTableOptions": "Таблица орнотмолоруна кайтуу",
+                    "configureTableOptions": "Таблицаны орнотуу",
+                    "resetColumnsSizes": "Мамычалардын өлчөмүнүн бардык өзгөрүүлөрүн баштапкы абалга кайтаруу",
+                    "updateWidget": "Виджетти жаңылоо",
+                    "addTheWidget": "Виджетти кошуу",
+                    "titlePlaceholder": "Аталышын киргизүү...",
+                    "textPlaceholder": "Текст жазыңыз...",
+                    "useThisMap": "Ушул картаны колдонуу",
+                    "configureMapOptions": "Карта орнотмолору",
+                    "preview": "Алдын ала көрсөтүү",
+                    "addLayer": "Картага катмар кошуу",
+                    "useTheSelectedLayer": "Тандалган катмарды колдонуңуз",
+                    "connectToAMap": "Дагы виджет кошуу",
+                    "connectToTheMap": "Башка виджет кошуу",
+                    "selectMapToConnect": "Кошуу үчүн виджет тандаңыз",
+                    "clearConnection": "Clear connection"
+                },
+                "errors": {
+                    "noAttributesTitle": "Көрсөтүү үчүн атрибуттар жок",
+                    "noAttributesDescription": "Тандалган катмар көрсөтүү үчүн эч кандай атрибуттары жок. Сураныч виджеттин же катмардын башка түрүн тандаңыз",
+                    "noWidgetsAvailableTitle": "Тандалган катмар үчүн виджет түзүү ийгиликсиз",
+                    "noWidgetsAvailableDescription": "<p><strong>Сураныч, виджеттин же катмардын башка түрүн тандап көрүңүз</strong></p><p>Тандалган катмар жана виджеттин түрү үчүн сервер керектүү кызмат көрсөтпөй жатат.</p><p>Мүмкүн болгон себептер: <ul><li> Тандалган катмар растр катмары болуп саналат</li><li>WFS сервиси жеткиликтүү эмес</li><li>WPS процесси <code>gs:aggregate</code> жеткиликтүү эмес</li></ul></p>",
+                    "checkAtLeastOneAttribute": "Сиз жок дегенде бир мамычаны тандашыңыз керек",
+                    "noMapAvailableForLegend": "Карта жеткиликтүү эмес",
+                    "noMapAvailableForLegendDescription": "Легенда түзүү үчүн Сизге жок дегенде бир виджет керек"
+                },
+                "setupFilter": "Виджеттин маалымат чыпкасын орнотуу"
+            },
+            "widget": {
+                "menu": {
+                    "showChartData": "Диграмма маалыматын көрсөтүү",
+                    "edit": "Түзөтүү",
+                    "delete": "Өчүрүү",
+                    "collapse": "Коллапс",
+                    "confirmDelete": "Ырастайсызбы?",
+                    "downloadData": "Маалыматтарды жүктөө",
+                    "exportImage": "Сүрөттү экспорттоо",
+                    "pin": "Байлап коюу",
+                    "unpin": "Кое берүү",
+                    "hide": "Жашыруу",
+                    "hideDescription": "Башка колдонуучулар үчүн бул виджетти жашырып коюу",
+                    "unhide": "Көрсөтүү",
+                    "unhideDescription": "Башка колдонуучулар үчүн виджетти көрсөтүү"
+                }
+            },
+            "chartType": {
+                "bar": {
+                    "title": "Гистограмма",
+                    "description": "Картага кошуу үчүн гисторграмма түзүү",
+                    "caption": "полоса"
+                },
+                "pie": {
+                    "title": "Тегерек диаграммасы",
+                    "description": "Картага кошуу үчүн тегерек диаграммасын түзүү",
+                    "caption": "пирог"
+                },
+                "line": {
+                    "title": "Сызык диаграммасы",
+                    "description": "Картага кошуу үчүн сызык диаграммасын түзүү",
+                    "caption": "Сызык"
+                },
+                "gauge": {
+                    "title": "Калибрлөө диаграммасы",
+                    "description": "Картага кошуу үчүн калибрлөө диаграммасын түзүү",
+                    "caption": "Көрсөткүч"
+                }
+            },
+            "chartOptionsTitle": "Маалыматтар орнотмосу",
+            "widgetOptionsTitle": "Виджет жөнүндө маалыматты орнотуу",
+            "placeHolder":{
+                "default":"Атрибутту тандоо"
+            },
+            "groupByAttributes": {
+                "line": "Атрибут X",
+                "pie": "Топтоо",
+                "bar": "Атрибут X",
+                "gauge": "Топтоо",
+                "counter": "Топтоо",
+                "default": "Топтоо"
+            },
+            "aggregationAttribute": {
+                "line": "Атрибут Y",
+                "pie": "Колдонуу",
+                "bar": "Атрибут Y",
+                "gauge": "Колдонуу",
+                "counter": "Колдонуу",
+                "default": "Колдонуу"
+            },
+            "aggregateFunction": {
+                "line": "Операция",
+                "pie": "Операция",
+                "bar": "Операция",
+                "gauge": "Операция",
+                "counter": "Операция",
+                "default": "Операция"
+            },
+            "colorRamp": {
+                "line": "Түс",
+                "pie": "Түстүү Схема",
+                "bar": "Түс",
+                "gauge": "Түс",
+                "counter": "Түс",
+                "default": "Түс"
+            },
+            "uom": {
+                "line": "Өлчөө бирдиги",
+                "pie": "Өлчөө бирдиги",
+                "bar": "Өлчөө бирдиги",
+                "gauge": "Өлчөө бирдиги",
+                "counter": "Өлчөө бирдиги",
+                "default": "Өлчөө бирдиги"
+            },
+            "mapSync": "Көрүү терезеси боюнча динамикалык чыпкасы",
+            "displayLegend": {
+                "line": "Легенданы көрсөтүү",
+                "pie": "Легенданы көрсөтүү",
+                "bar": "Легендагы көрсөтүү",
+                "gauge": "Легенданы көрсөтүү"
+            },
+            "displayCartesian": {
+                "line": "Торчону жашыруу",
+                "bar": "Торчону жашыруу"
+            },
+            "xAxisAngle":{
+                "line": "X огу: айлануу бурчу ??",
+                "bar": "X огу: айлануу бурчу ??"
+            },
+            "yAxis":{
+                "line": "Y огун жашыруу",
+                "bar": "Y огун жашыруу"
+            },
+            "yAxisLabel":{
+                "line": "Легенданы жазуу",
+                "bar": "Легенданы жазуу"
+            },
+            "advancedOptions":{
+                "line": "Кошумча орнотмолор",
+                "bar": "Кошумча орнотмолор"
+            },
+            "tray": {
+                "title": "Виджеттер",
+                "expandTray": "Виджеттер панелин көргөзүү",
+                "collapseTray": "Виджеттер панелин түрүп коюу",
+                "expandAll": "Бардык виджеттерди көрсөтүү",
+                "collapseAll": "Бардык виджеттерди түрүп коюу",
+                "notifications": {
+                    "collapsed": {
+                        "message": "Убактылуу шкала жана виджеттер бир убакта көрүнбөйт. Убактылуу шкала менен виджеттердин ортосундагы которууларды колдонуу үчүн виджет табагын колдонуңуз",
+                        "timelineTitle": "Убактылуу шкала түрүлдү",
+                        "widgetsTitle": "Виджет түрүлдү"
+                    }
+                }
+            }
+        },
+		"dashboard": {
+			"loadingSpinner": "Мониторинг панелин жүктөо",
+			"errors": {
+				"loading": {
+					"title": "Мониторинг панелин жүктөөдө ката кетти",
+					"dashboardNotAccessible": "Бул мониторинг панелине кирүүгө Сизде уруксатыңыз жок. Сураныч, ресурстун ээсине кайрылыңыз",
+					"pleaseLogin": "Бул мониторинг панели жалпы колдонуу үчүн эмес. Сураныч, системага кириңиз",
+					"dashboardDoesNotExist": "Сиз кире албай жаткан панель монитору жок",
+					"unknownError": "Панел мониторин жүктөөдө ката кетти. Сураныч, админстратор менен байланышыңыз",
+					"notFound": "Мониторинг панели табылган жок",
+	                "notAccessible": "Куралдар панели жеткиликтүү эмес"
+                },
+				"resourceAlreadyExists": "Мындай ат менен ресурс мурунтадан бар",
+				"forbidden": "Күтүүсүздөн ката кетти (403 Тыюу салынган). Сураныч, админстратор менен байланышыңыз",
+				"forbidden405": " Күтүүсүздөн ката кетти (405 Тыюу салынган). Сураныч, админстратор менен байланышыңыз"
+			},
+			"editor": {
+				"save": "Панель мониторингин сактоо",
+				"addACardToTheDashboard": "Панель мониторингине виджет кошуу",
+				"showConnections": "Байланыштарды көрсөтүү",
+				"hideConnections": "Байланышты жашыруу"
+			},
+			"emptyTitle": "Панель мониторинги бош"
+		},
+		"context": {
+			"loadingSpinner": "Мазмунун жүктөө",
+			"errors":{
+				"loading": {
+					"title": "Мазмунду жүктөөдө ката кетти",
+					"notAccessible": "Кээ бир ресурстарга уруксатыңыз жок. Сураныч, ресурстун ээси менен байланышыңыз",
+					"pleaseLogin": "Кээ бир ресурстар ачык эмес. Сураныч, катталыңыз.",
+					"unknownError": "Картаны же мазмунду жүктөөдө ката кетти. Сураныч, админстартор менен байланышыңыз",
+					"notFound": "Ресурс табылган жок",
+	                "notAccessible": "Ресурс жеткиликтүү эмес"
+				},
+				"context": {
+	                "notAccessible": "Бул мазмунга уруксатыңыз жок. Сураныч, ресурстун ээси менен байланышыңыз ",
+	                "pleaseLogin": " Бул мазмун жалпы эмес. Сураныч, катталыңыз.",
+	                "unknownError": "Мазмунду жүктөөдө ката кетти. Сураныч, админстартор менен байланышыңыз ",
+	                "notFound": "Сиз кире албай жаткан мазмун жок",
+	                "notAccessible": "Бул контектстке сиздин кирүүгө укугуңуз жок. Кирүүгө уруксат алыш үчүн админстратор менен байланышыңыз"
+				},
+				"template": {
+	                "title": "Шаблон жүктөөдө ката кетти",
+	                "notAccessible": "Бул шаблонго Сиздин кирүү мүмкүнчүлүгүңүз жок. Сураныч, ресурстун ээси менен байланышыңыз",
+	                "pleaseLogin": "Бул шаблон ачык эмес. Сураныч, катталыңыз",
+	                "unknownError": "Шаблонду жүктөөдө ката кетти. Сураныч, админстратор менен байланышыңыз",
+	                "notFound": "Сиз кире албай жаткан шаблон жок"
+	            },
+	            "map": {
+	                "notAccessible": "Картага кирүүгө Сиздин мүмкүнчүлүгүңүз жок. Сураныч, ресурстун ээси менен байланышыңыз",
+	                "pleaseLogin": "Бул карта ачык колдонууда эмес. Сураныч, катталыңыз",
+	                "unknownError": "Картаны жүктөөдө ката кетти. Сураныч, админстратор менен байланышыңыз",
+	                "notFound": "Сиз кире албай жаткан карта жок",
+	                "notAccessible": "Бул картага кирүүгө Сизде укук жок. Сураныч, кирүүгө уруксат алуу үчүн админстратор менен байланышыңыз"
+	            },
+	            "plugins": {
+					"upload": "Плагин жүктөөдө ката кетти",
+					"uninstall": "Плагинди жүктөөдө ката кетти"
+	            },
+	            "resourceAlreadyExists": "Мындай ат менен ресурс мурунтадан бар"
+	        }
+	    },
+	    "wizard": {
+	        "next": "Кийинки",
+	        "prev": "Мурунку",
+	        "finish": "Аяктоо"
+	    },
+	    "vectorstyler": {
+			"tooltip": "Вектордук катмардын түзүү жана түзөтүү",
+			"paneltitle": "Вектор стилин түзөтүү",
+			"layerlabel": "Катмар",
+			"rulelabel": "Эрежелер",
+			"namelabel": "Эреженин аты",
+			"symboltitle": "Белги",
+			"labeltitle": "Кол",
+			"conditiontitle": "Шарттары",
+			"applybtn": "Стилди колдонуу",
+			"addrulebtn": "Эреже кошуу",
+			"removerulebtn": "Эрежени өчүрүү"
+		},
+		"scaledenominator": {
+			"minlabel": "Масштабдын эң кичине бөлүүчү бөлүгү",
+			"maxlabel": "Масштабдын эң чоң бөлүүчү бөлүгү",
+			"maxerror": "Эң чоң маани эң кичине мааниден чоң болушу керек",
+			"minerror": "Эң кичине маани эң чоң мааниден кичине болушу керек",
+			"none": "Жок"
+		},
+		"markNameSelector": {
+			"circle": "Айлана",
+			"square": "Төрт чарчы",
+			"triangle": "Үч бурчтук",
+			"star": "Жылдызча",
+			"cross": "Крест",
+			"x": "X"
+		},
+		"styler": {
+			"tooltip": "Катмардын стилин түзүү жана түзөтүү",
+			"paneltitle": "Стил түзөтүү",
+			"layerlabel": "Катмар"
+		},
+		"styleeditor": {
+			"styleListfilterPlaceholder": "Стилдин аты, аталышы же аннотациясы боюнча чыпкалоо",
+			"templateFilterPlaceholder": "Шаблондор стилин аталышы боюнча чыпкалоо",
+			"createStyleFromTemplate": "Жаңы стил түзүү үчүн шаблонду тандаңыз",
+			"titleRequired": "<div> Аталышы милдеттүү түрдө!</div><div>Аталышы жана аннотация тамга-сандардан турушу керек</div>",
+			"titleSettings": "Аталышы",
+			"titleSettingsplaceholder": "Аталышын жазуу (тамга-сандар)",
+			"abstractSettings": "Аннотация",
+			"abstractSettingsplaceholder": "Аннотацияны киргизүү (тамга-сандар)",
+			"createStyleModalTitle": "Жаңы стил түзүү",
+			"filterMatchNotFound": "Жазылган текстке туура келген стил жок",
+			"backToList": "Стилдер тизмесине кайтып келүү",
+			"createNewStyle": "Жаңы стилди түзүү",
+			"editSelectedStyle": "Тандалган стилди өзгөртүү",
+			"saveCurrentStyle": "Учурдагы стилди түзүү",
+			"addSelectedTemplate": "Стилдер тизмесине тандалган шаблонду кошуу",
+			"deleteSelectedStyle": "Тандалган стилди өчүрүү",
+			"closeWithoutSaveAlertTitle": "Стил өзгөртүлдү",
+			"closeWithoutSaveAlert": "Стилдерди түзөтүү бөлүмүнөн өзгөрүүлөрдү сактабай туруп чыгып жатасыз",
+			"deleteStyleAlertTitle": "Стилди өчүрүү",
+			"deleteStyleAlert": "Тандалган стил артка жол жок өчүрүлөт",
+			"delete": "Өчүрүү",
+			"defaultStyle": "Стил",
+			"availableStyle": "Жеткиликтүү стил",
+			"styleNotFound": "Стил табылган жок",
+			"noPermission": "Колдонуучу стилди түзөтө албайт",
+			"deletedStyleSuccessTitle": "Стилди өчүрүү",
+			"deletedStyleSuccessMessage": "Стил ийгиликтүү өчүрүлдү",
+			"deletedStyleErrorTitle": "Стилдин катасын өчүрүү",
+			"deletedStyleErrorMessage": "Учурдагы стилди өчүрүү ийгиликтүү болгон жок",
+			"savedStyleTitle": "Стил сакталды",
+			"savedStyleMessage": "Стил ийгиликтүү сакталды",
+			"missingAvailableStyles": "Стилдер жок",
+			"missingAvailableStylesMessage": "<ul><h4>Мүмкүн болгон себептер:</h4> <li>Тандалган катмар катмарлар тобу болуп саналат</li><li>Катмар сервер тарабынан туура эмес конфигурацияланган</li></ul>",
+			"createTmpErrorTitle": "Жаңы убактылуу стил",
+			"createTmpStyleErrorMessage": "Убактылуу стил түзүлбөй жатат. Бул стилдер кызматында колдоого алынбаган форматтар менен байланышы болушу мумкүн",
+			"updateTmpErrorTitle": "Убактылуу стилди жаңыртуу",
+			"updateTmpStyleErrorMessage": "Убактылуу стил жаңылана албайт. Бул колдоого алынбаган формат же кошулуу көйгөйү менен байланышы болушу мүмкүн.",
+			"createStyleErrorTitle": "Жаңы стил",
+			"createStyleErrorMessage": "Стилдер кызматында стилди сактоо болбой калды. Бул колдоого алынбаган формат же кошулуу көйгөйү менен байланышы болушу мүмкүн.",
+			"updateStyleErrorTitle": "Стилдерди өзгөртүү",
+			"updateStyleErrorMessage": " Стилдер кызматында стилди сактоо болбой калды. Бул колдоого алынбаган формат же кошулуу көйгөйү менен байланышы болушу мүмкүн.",
+			"validationErrorTitle": "Текшерүү катасы",
+			"genericValidationError": "Жараксыз стил, аны колдонуу мүмкүн эмес.",
+			"setDefaultStyle": "Тандалган стилди учурдагы катмар үчүн колдонуңуз",
+			"setDefaultStyleSuccessTitle": "Стил ийгиликтүү орнотулду.",
+			"setDefaultStyleSuccessMessage": "Стил ийгиликтүү колдонулду",
+			"setDefaultStyleErrorTitle": "Стилди орнотуу убагында ката кетти",
+			"setDefaultStyleErrorMessage": "Тандалган стилди колдонуу мүмкүн эмес",
+			
+			"enterLegendLabelPlaceholder": "Легенданын белгисин жазуу",
+            "addMarkSymbolizer": "Эн белгини кошуу",
+            "addMarkRule": "Белгинин эрежесин кошуу",
+            "shape": "Shape",
+            "fill": "Түстү толтуруу",
+            "strokeColor": "Контур түсү",
+            "strokeWidth": "Контурдун туурасы",
+            "radius": "Радиус",
+            "rotation": "Бурулуш",
+            "addIconSymbolizer": "Иконка белгисин кошуу",
+            "addIconRule": "Иконка эрежесин кошуу",
+            "image": "Сүрөт",
+            "opacity": "Тунук эмес",
+            "size": "Өлчөм",
+            "addLineSymbolizer": "Сызыктын белгисин кошуу",
+            "addLineRule": "Сызыктын эрежесин кошуу",
+            "lineStyle": "Сызыктын стили",
+            "lineCap": "Сызыктын бүтүшү",
+            "lineJoin": "Сызыкка кошулуу",
+            "addFillSymbolizer": "Толтуруу белгисин кошуу",
+            "addFillRule": "Толтуруу эрежесин кошуу",
+            "outlineColor": "Контурдун түсү",
+            "outlineWidth": "Контурдун туурасы",
+            "addTextSymbolizer": "Тексттин белгисин кошуу",
+            "addTextRule": "Тексттин эрежесин кошуу",
+            "label": "Белги",
+            "fontFamily": "Font family",
+            "fontColor": "Font color",
+            "fontSize": "Font size",
+            "fontStyle": "Font style",
+            "fontWeight": "Font weight",
+            "haloColor": "Halo цвет",
+            "haloWidth": "Halo ширина",
+            "offsetX": "Смещение x",
+            "offsetY": "Смещение y",
+            "addRasterSymbolizer": "Растр белгисин кошуу",
+            "addRasterRule": "Растр белгисинин эрежесин кошуу",
+            "colorRamp": "Түстүү гамма",
+            "reverse": "Тескери тартип",
+            "attribute": "Атрибут",
+            "method": "Ыкма",
+            "intervals": "Аралыктар",
+            "continuous": "Үзгүлтүксүз түстөр",
+
+            "lineCapButt": "Жабыштыруу",
+            "lineCapRound": "Айлана",
+            "lineCapSquare": "Төрт бурчтук",
+
+            "lineJoinBevel": "Скос",
+            "lineJoinRound": "Айлана",
+            "lineJoinMiter": "Митра",
+            "fontStyleNormal": "Normal",
+            "fontStyleItalic": "Italic",
+            "fontWeightNormal": "Normal",
+            "fontWeightBold": "Bold",
+            "boolTrue": "True",
+            "boolFalse": "False",
+
+            "circle": " Айлана",
+            "square": "Төрт бурчтук",
+            "triangle": "Үч бурчтук",
+            "star": "Жылдыз",
+            "cross": "Крест",
+            "x": "X",
+            "verticalLine": "Вертикалдык сызык",
+            "horizontalLine": "Горизонтальдык сызык",
+            "slash": "Slash",
+            "backslash": "Backslash",
+            "dot": "Чекит",
+            "plus": "Плюс",
+            "times": "Times",
+            "openArrow": "Open arrow",
+            "closedArrow": "Closed arrow",
+            "band": "Band",
+            "none": "None",
+            "normalize": "Normalize",
+            "histogram": "Histogram",
+            "contrastEnhancement": "Contrast enhancement",
+            "placeholderInput": "Маанилерин жазуу",
+            "placeholderEnterImageUrl": "Сүрөттүн url жазуу",
+            "selectPlaceholder": "Маанини тандоо",
+            "noResultsSelectInput": "Табылган жок",
+            "channelAuto": "Авто",
+            "openFilterBuilder": "Чыпканын курулушун ачуу",
+            "removeRule": "Эрежени өчүрүү",
+
+            "openScaleDenominator": "Масштабдагы бөлүүчү чыпканы ачуу",
+            "selectScale": "Масштабды тандоо",
+            "noResultScales": "Масштаб табылган жок",
+            "maxScaleDenominator": "Эң жогорку масштаб",
+            "minScaleDenominator": "Эң кичине масштаб",
+
+            "simpleStyle": "Жөнөкөй стиль",
+            "classificationStyle": "Классификациянын стили",
+            "patternMarkStyle": "Белги шаблонунун стили",
+            "patternIconStyle": "Иконка шаблонунун стили",
+            "singleBand": "Жалгыз топ",
+            "rgbaBands": "RGB тобу",
+            "pseudoColor": "Псевдо түс",
+
+            "undoStyle": "Стилди артка кайтаруу",
+            "redoStyle": "Стилди кайталоо",
+
+            "equalInterval": "Бирдей аралык",
+            "quantile": "Quantile",
+            "jenks": "Natural breaks (Jenks)",
+            "switchToTextareaEditor": "Текст түзөтүүсүнө кошулуу",
+            "switchToVisualEditor": "Визуалдык түзөтүүгө кошулуу",
+            "alertForceTranslate": " Визуалдык редакторго өткөндө тексттик редакторго киргизилген бардык өзгөртүүлөрдү жоготосуз. Чын эле визуалдык редакторго которуласызбы?",
+            "stayInTextareaEditor": "Жок, тексттик редактордо улантуу?",
+            "useLatestValidStyle": "Ооба, визуалдык редакторго өтүү?",
+            "validationError": "Валидация убагында ката кетти",
+            "incorrectPropertyInputError": " Бул, балким, стилдик редактордун касиетинин киргизилген маалыматтарынын жоктугу же туура эмес мааниси менен байланыштуу.",
+
+            "emptyRuleEditorTitle": "Жаңы эрежелерди кошуу",
+            "emptyRuleEditor": "Бул стил үчүн эрежелер жок. Куралдар панелиндеги керектүү белгини басып, жаңы эреже кошуңуз",
+            "classificationError": "Сервис жеткиликтүү эмес. Азыркы учурда классификация түзүү мүмкүн эмес",
+            "classificationRasterError": "Сервис жеткиликтүү эмес. Азыркы учурда растр классификаясын түзүү мүмкүн эмес.",
+            "redChannel": "Кызыл канал",
+            "greenChannel": "Жашыл коридор",
+            "blueChannel": "Көк канал",
+            "grayChannel": "Канал",
+            "ruleClassification": "Классификация",
+            "ruleRaster": "Растр"
+		},
+		"playback": {
+			"settings": {
+				"tooltip": "Орнотмолор",
+				"title": "Ойнотуу орнотмолору",
+				"frameDuration": "Кадрдын узундугу",
+				"range": {
+					"title": "Анимциянын диапазану",
+					"zoomTooltip": "Учурдагы анимациянын чектерине чейин масштабдоо",
+					"animationStart": "Анимациянын башталышы",
+					"animationEnd": "Анимациянын аякташы",
+					"zoomToCurrentPlayackRange": "Учурдагы ойнотуу аймагына чейин масштабдоо",
+					"setToCurrentViewRange": "Учурдагы көрүү диапазонуна орнотуу",
+					"fitToSelectedLayerRange": "Тандалган катмарга чейин чоңойтуу"
+                },
+                "step": {
+					"tooltip": "Эгер 'Жетектөө катмарга байлоо' опциясы өчүк болсо, Сиз анимациянын кадамын орното аласыз",
+					"label": "Анимация кадамы",
+					"year": "{number, plural, =0 {Year} =1 {Year} other {Years}}",
+					"week": "{number, plural, =0 {Week} =1 {Week} other {Weeks}}",
+					"day": "{number, plural, =0 {Day} =1 {Day} other {Days}}",
+					"hour": "{number, plural, =0 {Hour} =1 {Hour} other {Hours}}",
+					"minute": "{number, plural, =0 {Minute} =1 {Minute} other {Minutes}}",
+					"second": "{number, plural, =0 {Second} =1 {Second} other {Seconds}}"
+				},
+				"mode": {
+					"title": "Режим",
+					"following": "Анимацияны ээрчүү",
+					"followingDescription": "Анимация иштеп жатканда курсорду ээрчиңиз"
+                }
+            },
+			"backwardStep": "Артка кадам",
+			"forwardStep": "Алдыга чыгуу",
+			"play": "Ойноо",
+			"pause": "Тыным",
+			"paused": "Ойноо (тыным)",
+			"stop": "Токтот"
+		},
+		"timeline": {
+			"settings": {
+				"title": "Убактылуу шкаланын орнотмолору",
+				"snapToGuideLayer": "Жетектөөчү катмарга байлоо",
+				"snapToGuideLayerTooltip": "Убакыт курсорун тандалган катмардын маалыматтарына байлоого мажбурлоо. Убактылуу курсордун ачкычын ачуу жана анимация кадамынын орнотмолорун күйгузүү үчүн ушул опцияны өчүрүңүз."
+            },
+			"hide": "Убактылуу шкаланы жашыруу",
+			"show": "Убактылуу шкаланы көргөзүү",
+			"mapSyncOn": "Көрүү терезеси боюнча чыпкасы жок дайыма көрсөтүү",
+			"mapSyncOff": "Учурдагы жеткиликтүү көрүү терезесинен убакытты гана көрсөтүү",
+			"currentTime": "Учурдагы убакытка өтүү",
+			"rangeStart":"Учурдагы убакыт диапазонуна өтүү",
+			"rangeEnd": "Учурдагы убактылуу диапазонуна өтүү",
+			"hideLayerName": "Катмарлардын аттарын жашыруу",
+			"showLayerName": "Катмарлардын аттарын көргөзүү",
+			"enableRange": "Убактылуу диапазонду күйгүзүү",
+			"disableRange": "Убактылуу диапазонду өчүрүү",
+			"enablePlayBack": "Ойнотуу менен башкарууну көргөзүү",
+			"disablePlayBack": "Ойнотуу менен башкарууну жашыруу",
+			"expand" : "Убакыт слайдерин жайып көрсөтүү",
+			"collapse" : "Убакыт слайдерин түрүп коюу",
+			"collapsed": {
+				"title": "Убактылуу шкала түрүлдү",
+				"tooltip": "Кайрадан жайып көрсөтүү үчүн бул жерди басыңыз"
+            },
+            "errors": {
+				"multidim_error_title": "Сервердик кызмат жооп бербей жатат",
+				"multidim_error_message": "Көп кырдуу колдоо үчүн керектүү кызматтар жооп бербей жатат. Сураныч, кайрадан аракет кылып көрүңүз же админстратор менен байланышыңыз."
+			}
+		},
+		"rulesmanager": {
+			"apply": "Колдонуу",
+			"remove": "Геометрияны өчүрүү",
+			"resetconstraints": "Чектөөлөрдү баштапкы абалга келтирүү",
+			"constraintsmsg": "Өзгөртүүлөргө уруксат берилди, иштөө аймагы же катмар, деталдары өчүрүлөт. Өчүрүүнү ырастаңыз?",
+			"defstyle": "Стил",
+			"avstyle": "Жеткиликтүү стилдер",
+			"clearbtn": "Бардыгын тазалоо",
+			"selectbtn": "Бардыгын тандоо",
+			"placeholders": {
+				"role": "Ролдорду издөө үчүн киргизиңиз",
+				"user": "Колдонуучуларды издөө үчүн киргизиңиз",
+				"service": "Кызматтарды издөө үчүн киргизиңиз",
+				"request": "Суроолорду издөө үчүн киргизиңиз",
+				"workspace": "Жумуш аралыктарын издөө үчүн киргизиңиз",
+				"layer": "Катмарларды издөө үчүн киргизиңиз",
+				"access": "Мүмкүндүк алуу эрежелерин издөө үчүн киргизиңиз",
+				"ip": "###.###.###.###/##",
+				"priority": "Артыкчылык тандаңыз",
+				"filter": "Чыпкалардын стили..."
+            },
+			"menutitle": "Мүмкүндүк алуу эрежелерин башкаруу",
+			"tooltip": {
+				"addT": "Эрежелерди кошуу",
+				"editT": "Тандалган эрежени түзөтүү",
+				"addBeT": "Тандоонун астында жаңы эреже кошуу",
+				"addAfT": "Тандоодон кийин жаңы эреже кошуу",
+				"deleteT": "Тандалган эрежелерди өчүрүү",
+				"cacheT": "Кэшти тазалоо",
+				"save": "Учурдагы эрежени сактоо",
+				"close": "Эреже түзүүдөн чыгуу"
+            },
+            "navItems": {
+				"main": "Жалпы эрежелер",
+				"style": "Стил",
+				"filter": "Чыпкалар",
+				"attribute": "Атрибуттар эрежелери"
+            },
+			"rule": "Эреже",
+			"cachetitle": "Кэшти тазалоо",
+			"cachemsg": "Кэштин эрежелерин өчүрөсүзбү?",
+			"deltitle": "Эрежелерди өчүрүү",
+			"delmsg": "Сиз чындап эле ушул эрежени өчүрөсүзбү?",
+			"invalidForm": "Форма жеткиликтүү эмес, талалардын маанисин текшериңиз",
+			"ip": "IP",
+			"title": "Мүмкүнчүлүк эрежелери",
+			"role": "Ролу",
+			"user": "Колдонуучу",
+			"priority": "Артыкчылык",
+			"service": "Кызмат",
+			"request": "Өтүнүч",
+			"workspace": "Иш аралыгы",
+			"layer": "Катмар",
+			"filters": "Чыпкалар",
+			"rules": "Эрежелер",
+			"access": "Мүмкүнчүлүк",
+			"newModal": "Жаңы эрежелер",
+			"editModal": "Эрежелерди түзөтүү",
+			"newButton": "Түзүү",
+			"editButton": "Сактоо",
+			"close": "Жабуу",
+			"previous": "Мурунку",
+			"next": "Кийинки",
+			"cacheCleaned": "Кэш ийгиликтүү тазаланды",
+			"errorTitle": "Геозона",
+			"errorCQL": "Геометрия жараксыз!",
+			"errorCleaningCache": "Кэштин эрежелерин тазалоодо ката кетти.",
+			"errorLoadingRoles": "Ролдорду жүктөөдө ката кетти.",
+			"errorLoadingUsers": "Колдонуучуларды жүктөөдө ката кетти.",
+			"errorLoadingWorkspaces": "Иш аралыктарын жүктөөдө ката кетти.",
+			"errorLoadingLayers": "Катмарларды жүктөөдө ката кетти.",
+			"errorLoadingRules": "Эрежелерди жүктөөдө ката кетти.",
+			"errorMovingRules": "Эрежелерди жылыштырууда ката кетти.",
+			"errorDeletingRules": "Эрежелерди өчүрүүдө ката кетти.",
+			"errorAddingRule": "Эрежелерди кошууда ката кетти.",
+			"errorUpdatingRule": "Эрежелерди сактоодо ката кетти.",
+			"errorDuplicateRule": "Эрежелердин көчүрмөсүн түзүү.",
+			"errorLoading": "Жүктөөдө ката кетти",
+			"deleteModal": "Эрежелерди өчүрүү",
+			"selectedRulesDelete": "Тандалган эрежелерди өчүрүү?",
+			"deleteButton": "Өчүрүү",
+			"cancelButton": "Артка кайтуу",
+			"cqlRead": "CQL чыпкасын окуунун эрежелери",
+			"cqlWrite": "CQL чыпкасынын жазуу эрежелери",
+			"missingconfig": "Эрежелер диспетчеринде орнотмолор жок. Кирүүгө тыюу салынган!",
+			"selectworkspace": "Кошумча орнотмолорду кошуу үчүн жумуш аймагын тандаңыз"
+		},
+		"geostory": {
+			"geostoreMap": "Атластра картасы",
+			"loadingSpinner": "Жүктөө тарыхы",
+			"addTitleSection": "Аталыштар бөлүмүн кошуу",
+			"addParagraphSection": "Параграф бөлүмүн кошуу",
+			"addImmersiveSection": "Immersive бөлүмүн кошуу",
+			"addMediaSection": "Медиа бөлүмүн кошуу",
+			"addWebPageSection": "Веб-Страница бөлүмүн кошуу",
+			"addImmersiveContent": "Immersive Мазмунду кошуңуз",
+			"addTextContent": "Тексттик мазмунду кошуңуз",
+			"addMediaContent": "Медиа мазмунду кошуңуз",
+			"addWebPageContent": "Веб-Страницанын мазмунун кошуңуз",
+			"zoomToContent": "Мазмунга чейин чоңойтуңуз",
+			"emptyTitle": "Бул тарых бош",
+			"emptyDescription": "Жаңы мазмун кошуу менен геосактагычты түзүүнү баштоо",
+			"closeFullscreenMap": "Толук экран картаны жабуу",
+			"showFullscreenMap": "Толук экран картаны көрсөтүү",
+			"contentToolbar": {
+				"contentSize": "Өлчөмүн өзгөртүү",
+				"contentHeightAuto": "Мазмундун бийиктигине бул бөлүмдү ылайыкташтыруу",
+				"contentHeightView": "Вертикалдык көрүүгө бул бөлүмдү ылайыкташтыруу",
+				"smallSizeLabel": "Кичинекей",
+				"mediumSizeLabel": "Орто",
+				"largeSizeLabel": "Чоң",
+				"fullSizeLabel": "Толук",
+				"contentAlign": "Мазмунду тегиздөө",
+				"leftAlignLabel": "Сол жагынан",
+				"centerAlignLabel": "Борборго",
+				"rightAlignLabel": "Оң жагынан",
+				"contentTheme": "Талаанын темасын өзгөртүү",
+				"brightThemeLabel": "Жарыктыгы",
+				"brightTextThemeLabel": "Текстти жарыгыраак кылуу",
+				"darkThemeLabel": "Караңгы",
+				"darkTextThemeLabel": "Текстти караңгыраак кылуу",
+				"defaultThemeLabel": "Кадимкидей",
+				"customizeThemeLabel": "Орнотуу",
+				"customizeThemeRemoveLabel": "Орнотмону өчүрүү",
+				"cover": "Фонду контейнердин бардык аралыган жапкыдай кылыңыз",
+				"fit": "Бардык фонду контейнердин ичинен көрүнгүдөй кылыңыз",
+				"editMedia": "Медиа булагын өзгөртүү",
+				"remove": "Өчүрүү",
+				"removeConfirmTitle": "Ырастаңыз?",
+				"removeConfirmContent": "Бул мазмунду тарыхтан өчүрөсүзбү?",
+				"editMap": "Картанын орнотмолорун өзгөртүү",
+				"resetMap": "Вернуть карту к исходной конфигурации",
+				"resetMapConfirm": "Картанын орнотмолорун баштапкы абалга алып келүү",
+				"resetConfirmContent": "Картанын баштапкы орнотмосун калыбына келтирүү?",
+				"saveChanges": "Өзгөрүүлөрдү сактоо",
+				"closeMapEditing": "Жабуу",
+				"confirmCloseMapEditing": "Картаны түзөтүүнү жабуу",
+				"pendingChangesDiscardConfirm": "Учурдагы өзгөрүүлөрдү артка кайтаруу?",
+				"editURL": "URL веб-страницаны өзгөртүү",
+				"advancedMapEditor": "Картанын кеңейтилген түзөтүүлөрүн ачуу",
+				"enableAudio": "Үндү күйгүзүү",
+                "disableAudio": "Үндү өчүрүү",
+                "enableAutoplay": "Автоматтык түрдө иштөөнү уруксат берүү",
+                "disableAutoplay": "Автоматтык түрдө иштөөнү тыюу салуу",
+                "enableLoop": "Кайталап ойнотууга уруксат берүү",
+                "disableLoop": "Кайталап ойнотууга тыюу салуу",
+                "hideCaption": "Аталышын жашыруу",
+                "showCaption": "Сүрөттөөнү аталыш катары колдонуу"
+			},
+            "navigation": {
+                "edit": "Атласты түзөтүү"
+            },
+            "builder": {
+				"defaults": {
+					"htmlTitlePlaceholder": "Аталышын киргизиңиз",
+					"htmlPlaceholder": "Текст киргизиңиз...",
+					"titleTitle": "Бөлүмдүн аталышы",
+					"titleParagraph": "Параграфтын бөлүмү",
+					"titleImmersive": "Immersive бөлүмү",
+					"titleImmersiveContent": "Иммерсивдик музмун",
+					"titleMedia": "Медиа бөлүмү",
+					"titleImage": "Сүрөттөлүш",
+					"titleText": "Текст",
+					"titleWebPage": "Веб-страница",
+					"titleWebPageSection": "Раздел Веб-Страницанын бөлүмү",
+                    "titleUnknown": "БЕЛГИСИЗ"
+                },
+                "delete": "Тандалган бөлүмдү өчүрүү",
+                "preview": "Алдын ала көрүүнү күйгүзүү",
+                "edit": "Тарыхты түзөтүү",
+                "noContents": "Мазмун жеткиликтүү эмес",
+                "collapseAll": "Бардыгын түрүп коюу",
+                "expandAll": "Баарын жайып көрсөтүү",
+                "fullscreen": "Алдын ала көрсөтүүнү толук экранда көрсөтүү",
+                "settings": {
+					"tooltip": "Орнотмолор",
+					"back": "Конструкторго кайтып келүү",
+					"backConfirmTitle": "Орнотмолор өзгөртүлдү",
+					"backConfirmBody": "Орнотмолор панелин өзгөрүүлөрдү сактабай туруп жабасызбы?",
+					"backConfirmNo": "Жок",
+					"backConfirmYes": "Ооба",
+					"save": "Орнотмолорду сактаңыз",
+					"headerTitle" : "Тарыхтын орнотмолору",
+					"title" : "Аталышы",
+					"titlePlaceholder" : "Аталышын жазыңыз",
+					"logo" : "Логотип",
+					"logoPlaceholder": "Логотип бийиктиги 48 пикселден жана туурасы 96 пикселден чоң болбошу керек, эң чоң 500кб болушу керек.",
+					"autoplay" : "Автоматтык түрдө ишке киргизүү",
+					"enableAutoplay" : "Автоматтык түрдө иштөөгө уруксат берүү",
+					"autoplayInterval" : "Автоматтык түрдө иштөөдөгү аралык (секундлар)",
+					"autoplayIntervalPlaceholder" : "Автоматтык түрдө иштөөдөгү аралыкка уруксат берүү",
+					"navbar" : "Навигация панели",
+					"showNavbar" : "Навигация панелин көрсөтүү",
+					"theme": "Тема",
+					"templateTooltip":"Бул параметр картадагы «Идентификациялоо» функциясын бардык катмарлар үчүн жалпы форматтарды аныктоо жолу менен күйгүзүүгө жардам берет. Кеңейтилген карта түзөтүү жолун колдонуу менен ар бир катмар үчүн ар башка форматтарды орнотсо болот (карандаш белгиси). Кошумча маалымат алыш үчүн, караңыз. <a href='https://mapstore.readthedocs.io/en/latest/user-guide/layer-settings/#templates' target='_blank'> Колдонуу жетекчилиги </a>. Эгер катмар өзүнүн идентификация форматын аныктаса, анда ал картанын деңгээлинде орнотулган жалпы катмардын ордуна колдонулат."
+                }
+            },
+            "errors": {
+				"loading": {
+					"title": "Ката",
+					"unknownError": "Белгисиз ката",
+					"pleaseLogin": "Сураныч, системага кириңиз",
+					"notAccessible": "Бул тарых жеткиликтүү эмес",
+					"geostoryNotAccessible": "Бул атласка Сиздин уруксатыңыз жок. Сураныч, ресурстун ээси менен байланышыңыз",
+					"geostoryDoesNotExist": "Бул атлас жок"
+                }
+            },
+            "mapEditor": {
+				"configureMapOptions": "Картанын орнотмосу",
+				"settings": "Орнотмолор",
+				"settingsSubTitle": "Колдонуучулардын өз ара аракеттерин башкаруу",
+				"toc": "Катмарлар",
+				"pan": "Борборлоштуруу",
+				"zoom": "Масштабыд Чоңойтуу/Кичирейтүү",
+				"topLeft": "Өйдөкү сол жагы",
+				"topRight": "Өйдөкү оң жагы",
+				"bottomLeft": "Ылдыйкы сол жагы",
+				"bottomRight": "Ылдыйкы оң жагы",
+				"identify": "Аныктоо"
+            },
+			"webPageCreator": {
+				"title": "Web-страница",
+				"saveButton": "Сактоо",
+				"error": "Сураныч, иштеп жаткан URL веб-страницаны көргөзүңүз",
+				"url": {
+                    "label": "URL"
+                }
+            },
+            "customizeTheme": {
+				"backgroundColorLabel": "Фон",
+				"textColorLabel": "Текст",
+				"shadowLabel": "Көлөкө",
+				"useAlternativeTextColor": "Текстке альтернативный түс колдонуңуз",
+				"alternativeTextColorPopover": "<p>Эскертүү: Тандалган тексттин түсү бул фондо окулбай калышы мүмкүн. </p><p>тексттин альтернитивдик түсү {color} &nbsp;<span class=\"ms-custom-theme-picker-alternative-text\" style=\"background-color:{color}\"></span></p>"
+            }
+        },
+        "saveDialog": {
+			"title": "Каситеттерди түзөтүү",
+			"name": "Аты",
+			"description": "Сүрөттөлүшү",
+			"createdAt": "Түзүлдү",
+			"modifiedAt": "Модификацияланган",
+			"namePlaceholder": "Атын киргизиңиз...",
+			"descriptionPlaceholder": "Сүрөттөлүшүн киргизиңиз...",
+			"confirmCloseText": "Сактала элек өзгөрүүлөр бар, сактабай туруп жаба берейин деп жатасызбы?",
+			"close": "Жабуу",
+			"cancel": "Артка кайтуу",
+			"saveSuccessTitle": "Ийгилик",
+			"saveSuccessMessage": "Ийгиликтүү сакталды"
+        },
+		"mapEditor": {
+			"modalTitle": "Карта түзөтүүчү",
+			"confirmExitTitle": "Карта түзөтүүчүнү жабуу",
+			"confirmExitContent": "Сактала элек өзгөрүүлөрдү артка кайтаруу?"
+        },
+		"mediaEditor": {
+			"modalTitle": "Медиа",
+			"images": "Сүрөттөлүш",
+			"videos": "Видео",
+			"maps": "Карталар",
+			"preview": "Алдын ала көрүү",
+			"apply": "Колдонуу",
+			"confirmExitTitle": "Медиа түзөтүүчүнү жабуу",
+			"confirmExitContent": "Артка кайтарасызбы?",
+			"mediaPicker": {
+				"services": "Кызматтар:",
+				"clean": "Жыйынтыктарды тазалоо",
+				"noResults": "Жыйынтыктар жок",
+				"selectService": "Кызматты тандоо",
+				"add": "Кошуу",
+				"back": "Артка",
+				"save": "Сактоо",
+				"edit": "Түзөтүү",
+				"sourcePlaceholder": "Булакты киргизиңиз",
+				"source": "Булак",
+				"titlePlaceholder": "Аталышын киргизиңиз",
+				"title": "Аталышы",
+				"altTextPlaceholder": "Алтернативдик текст киргизиңиз",
+				"altText": "Альтернативдик текст",
+				"descriptionPlaceholder": "Сүрөттөлүшүн киргизиңиз",
+				"description": "Сүрөттөлүшү",
+				"creditsPlaceholder": "Насыяларды киргизүү",
+				"credits": "Ойлоп табуучулар",
+				"mapFilter": "Карталарды чыпкалоо",
+				"videoFilter": "Видеолорду чыпкалоо",
+				"imageFilter": "Сүрөттөрдү чыпкалоо",
+				"import": "Ресурсту жергиликтүү сактагычка импорттоо",
+				"trash": "Ресурсту өчүрүү",				
+				"videoUrl": "URL видео",
+				"videoUrlPlaceholder": "URL видеону киргизүү",
+				"thumbnail": "Эскиз кошуу (эң чоң өлчөм 500 Кб)",
+				"createVideoThumbnail": "Видеобулактан эскиз түзүү",
+                "thumbnailCreateError": "Учурдагы видеобулактан эскиз түзүү мүмкүн эмес. Эскиз киргизүүчү талаага кол менен сүрөт жүктөө үчүн, сүрөттү басыңыз же сүйрөңүз."
+            },
+            "mediaform": {
+				"confirmExitTitle": "Медиа формду жабуу",
+				"confirmExitContent": "Сакталбай калган өзгөрүүлөрдү артка кайтаруу?"
+            },
+            "mapForm": {
+				"thumbnailMessage": "Сүрөттүн өлчөмү 98x98 пикс болушу керек, Эң чоң 100 kб",
+				"confirmMapSaveTitle": "Картаны жаңылоо",
+				"confirmMapSaveContent": "Бул картаны жаңылоо тарыхтагы баардык мурунку түзөтүлгөн көз каранды карталардын баштапкы абалга келүүсүнө алып келет?"
+            },
+			"mediaList" : {
+				"removeResourceTitle": "Ырастаңыз?",
+				"confirmRemoveResource": "Бул медиаресурсту тарыхтан өчүрүп саласызбы?",
+				"confirmRemoveUsedResource": "Бул ресурс башка дагы бөлүмдөрдөн өчүрүлөт / колдонулуп жаткан мазмундарды бош калтырат. Тарыхтан өчүрөсүзбү?"
+            },
+			"imageList": {
+                "emptyList": "Жаңы сүрөт кошуу үчүн «кошуу» баскычын басыңыз. Колдонуучунун жетектөөчүлүгүн караңыз <a href='https://mapstore.readthedocs.io/en/latest/user-guide/media-editor-window/#images' target='_blank'/>тут</a>"
+            },
+			"mapList": {
+				"emptyList": "Карта түзүү же башка картографиялык сервис тандоо үчүн кошуу баскычын басыңыз."
+			},
+			"videoList": {
+                "emptyList": "Жаңы видео кошуу үчүн «кошуу» баскычын басыңыз. Колдонуучунун жетектөөчүлүгүн караңыз <a href='https://mapstore.readthedocs.io/en/latest/user-guide/media-editor-window/#videos' target='_blank'/>тут</a>"
+            }
+        },
+		"backgroundDialog": {
+			"addTitle": "Жаңы фон кошуу",
+			"editTitle": "Учурдагы фонду өзгөртүү",
+			"title": "Аталышы",
+			"titlePlaceholder": "Аталышын жазыңыз",
+			"add": "Кошуу",
+			"thumbnailMessage": "Сүрөттөрдүн өлчөмү 98x98 пикс болушу керек же 128x128 пикс, эң чоң 500kб",
+			"additionalParameters": "Кошумча орнотмолор",
+			"addAdditionalParameterTooltip": "Орнотмолорду кошуу",
+			"removeAdditionalParameterTooltip": "Орнотмолорду өчүрүү",
+			"parameter": "Орнотмолор",
+			"value": "Мааниси",
+			"string": "Сап",
+			"number": "Сандар",
+			"boolean": "Логикалык"
+        },
+		"defaultMapBackgroundsServiceTitle": "Кадимки Фон",
+		"backgroundSelector": {
+			"addTooltip": "Жаңы файлды кошуу",
+			"confirmDelete": "Фонду өчүрөсүзбү? \"{title}\" фон?"
+        },
+		"stepper": {
+			"back": "Артка",
+			"next": "Алдыга"
+		},
+        "newMapDialog": {
+            "title": "Мазмунду тандоо",
+            "noContexts": "Мазмун табылган жок",
+            "filterPlaceholder": "Мазмуну боюнча издөө..."
+        },
+        "plugins": {
+          "About": {
+			"description": "программа жөнүндө көрсөтүүчү терезе курал",
+			"title": "Программа жөнүндө"
+          },
+          "AddGroup": {
+            "description": "Колдонуучуларга TOCто жаңы катмарлар тобун түзүүгө жардам берет",
+            "title": "Катмарлар тобун кошуу"
+          },
+          "Annotations": {
+            "description": "Картадагы аннотацияларды тартуу үчүн курал",
+            "title": "Аннотациялар"
+          },
+          "AutoMapUpdate": {
+            "description": "Колдонуучуларга картаны жаңылоого мүмкүнчүлүк берет (mapstore эски түрү)",
+            "title": "Картаны автоматтык түрдө жаңылоо"
+          },
+          "BackgroundSelector": {
+            "description": "Картанын фонун тандоого мүмкүнчүлүк берет",
+            "title": "Фонду тандоо"
+          },
+          "BurgerMenu": {
+            "description": "Картанын өйдөкү он жак бөлүгүндө башка плагиндерди камтыйт",
+            "title": "Burger Меню"
+          },
+          "CRSSelector": {
+            "description": "Картанын проекциясын алмаштырууга мүмкүнчүлүк берет",
+            "title": "CRS Тандагыч"
+          },
+          "Details": {
+            "description": "Картанын толук сүрөттөлүшүн көрсөткөнгө мүмкүнчүлүк берет, эгер ошондой бар болсо",
+            "title": "Карта жөнүндө толук маалымат"
+          },
+          "Expander": {
+            "description": "Кээ бир баскычтарды жашырууга жардам берүүчү, капталындагы панел үчүн утилиттер (навигациялар",
+            "title": "Кеңейтүүчү"
+          },
+          "FeatureEditor": {
+            "description": "Таблицадагы атрибуттарды көрүү",
+            "title": "Атрибуттар таблицасы"
+          },
+          "FilterLayer": {
+            "description": "Катмарга чыпка кошууга мүмкүндүк берет",
+            "title": "Катмарды чыпкалоо"
+          },
+          "HelpLink": {
+            "description": "MapStore кагаздарына уруксат алуучу баскыч",
+            "title": "Кагаздарга шилтеме"
+          },
+          "Home": {
+            "description": "Сайттын үйдөгү бетине шилтеме",
+            "title": "Үйгө"
+          },
+          "Identify": {
+            "description": "Картадагы объекттерди суроо",
+            "title": "Аныктоо"
+          },
+          "Locate": {
+            "description": "Колдонуучунун картадагы ордун табуу жана ээрчүү",
+            "title": "Ордун табуу куралы"
+          },
+          "Login": {
+            "description": "Системага кирүү куралы",
+            "title": "Кирүү"
+          },
+          "MapCatalog": {
+            "description": "Сервердеги жеткиликтүү жерлерге карталарды көргөнгө, түзөгөнгө, өчүргөнгө жана жүктөгөнгө мүмкүндүк берет",
+            "title": "Карталардын каталогу"
+          },
+          "MapExport": {
+            "description": "Карталарды файлдарга экспорт кылууга мүмкүндүк берет",
+            "title": "Карталарды экспорттоо"
+          },
+          "MapImport": {
+            "description": "Маалыматтарды импорттоого (SHP, KML/KMZ, GeoJSON, GPX) же экспорттолгон карталарды кайра жүктөөгө мүмкүндүк берет.",
+            "title": "Импорт"
+          },
+          "MapLoading": {
+            "description": "Карта жүктөлүп жаткандыгын көрсөтүүчү каптал тилкесиндеги спиннер.",
+            "title": "Карта жүктөгүчтү аныктагыч"
+          },
+          "Measure": {
+            "description": "Картанын аралыгын жана аянтын ченөөгө мүмкүнчүлүк берет",
+            "title": "Ченөө"
+          },
+          "MetadataExplorer": {
+            "description": "Карталарга катмаррларды кошуу үчүн сервистерди (WMS/WMTS/CSW)көрүү",
+            "title": "Каталог"
+          },
+          "MousePosition": {
+            "description": "Чычкандын курсорунун координаттарын көрсөтүү",
+            "title": "Курсордун абалы"
+          },
+          "Print": {
+            "description": "Учурдагы картаны легендасы менен басып чыгарууга мүмкүнчүлүк берет",
+            "title": "Басып чыгаруу куралы"
+          },
+          "Save": {
+            "description": "Карталардын өзгөрүүлөрүн серверде сактоого мүмкүнчүлүк түзөт",
+            "title": "Сактоо"
+          },
+          "SaveAs": {
+            "description": "Карталарды серверде түзүүгө же көчүрүүгө мүмкүнчүлүк берет",
+            "title": "катары сактоо..."
+          },
+          "ScaleBox": {
+            "description": "Учудагы картанын өлчөмүнүн аныктагычы жана тандагычы",
+            "title": "Масштабды тандоо"
+          },
+          "Search": {
+            "description": "Тексттик издөөнүн куралы (геокодер)",
+            "title": "Издөө панели"
+          },
+          "Settings": {
+            "description": "Карта үчүн кээ бир орнотмолорду түзөтүүгө мүмкүнчүлүк берет (тил, маалыматтын форматы...)",
+            "title": "Орнотмолор"
+          },
+          "Share": {
+            "description": "Ар кандай жолдор менен карталар менен бөлүшүүгө мүмкүнчүлүк берет (шилтеме менен, QR-код менен, социалдык тармактарды колдонуу менен...)",
+            "title": "Бөлүшүү"
+          },
+          "StyleEditor": {
+            "description": "Катмарлар стилинин түзөтүүсү",
+            "title": "Стилдер түзөтүүсү"
+          },
+          "TOC": {
+            "description": "катмарлар тизмесин сортировка мүмкүнчүлүгү менен көрсөтүү",
+            "title": "Катмарлар тизмеси"
+          },
+          "TOCItemsSettings": {
+            "description": "Катмарлар орнотмосун түзөтүүгө уруксат берүү",
+            "title": "Катмарлар орнотмолору"
+          },
+          "Timeline": {
+            "description": "Убактылуу ченөөлөрдүн маалыматтары менен убакытта саякаттоого мүмкүнчүлүк берет",
+            "title": "Убактылуу шкала"
+          },
+          "Tutorial": {
+            "description": "Ар кандай функционалдык мүмкүнчүлүктөр жөнүндө окуу китебин кошуу",
+            "title": "Жетектөөчү"
+          },
+          "UserExtensions": {
+            "description": "Колдонуучулар ынгайлаштырылган кеңейтүүлөрдү күйгүзүп/өчүрүүгө мүмкүнчүлүк берет",
+            "title": "Ынгайлаштырылган кеңейтүүлөр"
+          },
+          "UserSession": {
+            "title": "Колдонуучунун бир кирип чыгуусу",
+            "description": "Ар бир мазмун үчүн колдонуучунун кирип чыкканын автоматтык түрдө сактап калууну күйгүзүү"
+          },
+          "Version": {
+            "description": "Карта орнотмолор куралында MapStore версиясын көргөзүү",
+            "descriptionGeorchestra": " Карта орнотмолор куралында GeOrchestra версиясын көргөзүү",
+            "title": "Версия"
+          },
+          "WFSDownload": {
+            "description": "Атрибуттар таблицасынан маалыматтарды жүктөөгө мүмкүнчулүк берет",
+            "title": "Маалыматтарды жүктөө"
+          },
+          "Widgets": {
+            "description": "Картадагы виджеттерди кошууга жана көрсөтүүгө мүмкүнчүлүк берет",
+            "title": "Виджеттер"
+          },
+          "WidgetsTray": {
+            "description": "Картадагы виджеттержи түрүп коюу/жана кеңейтүү үчүн лоток.",
+            "title": "Виджеттер лотогу"
+          },
+          "ZoomAll": {
+            "description": "Картанын масштабын толук камтуу үчүн каптал панелиндеги баскыч",
+            "title": "Толук камтылганга чейин чоңойтуу"
+          },
+          "ZoomIn": {
+            "description": "Картанын масштабын чоңойтуучу баскыч",
+            "title": "Чоңойтуу"
+          },
+          "ZoomOut": {
+            "description": " Картанын масштабын кичирейтүүчү баскыч ",
+            "title": "Кичирейтүү"
+          }
+        },
+        "contextCreator": {
+            "generalSettings": {
+                "label": "Негизги орнотмолор",
+                "title": "Тиркеменин жаңы мазмунун түзүү",
+                "name": "Аталышы",
+                "namePlaceholder": "Тиркеменин мазмунунун атын киргизиңиз...",
+                "windowTitle": "Терезенин аталышы",
+                "windowTitlePlaceholder": "Терезенин аталышын киргизиңиз..."
+            },
+            "configurePlugins": {
+                "label": "Плагиндердин орнотмосу",
+                "pluginsFilterPlaceholder": "Плагиндердин аттары боюнча чыпкалоо...",
+                "availablePlugins": "Жеткиликтүү плагиндер",
+                "enabledPlugins": "Күйгүзүлгөн плагиндер",
+                "availablePluginsEmpty": "Бардык жеткиликтүү плагиндер күйгүзүлдү",
+                "enabledPluginsEmpty": "Жеткиликтүү плагиндердин тизмесинен орнотмолорго плагиндерди кошуу",
+                "searchResultsEmpty": "Издөөгө туура келген плагиндер табылган жок",
+                "cfgParsingError": {
+                    "title": "Орнотмолор катасы",
+                    "body": "JSON орнотмосунда ката кетти.\nКийинки ката:\n\"{error}\""
+                },
+                "uploadLabel": "Аны таап анан көчүрүү үчүн кеңейтүү топтомун сүйрөңүз же баскычты басыңыз",
+                "uploadTitle": "MapStore плагинин орнотуңуз",
+                "uploadParseError": "index.json файлы index.json туура эмес форматта",
+                "uploadMissingIndexError": "index.json json zip файлда жок",
+                "uploadMissingPluginError": "index.json аркылуу табылган плагиндер жок",
+                "uploadMissingBundleError": "Жүктөлгөн файлда javascript пакети жок",
+                "uploadTooManyBundlesError": "zip Архивинде абдан көп  javascript пакети ",
+                "uploadWrongFileFormatError": "zip-файл күткөн туура эмес форматтагы файл",
+				"uploadAlreadyInstalledError": "Кеңейтүү орнотулду. Кайра орнотуудан мурун учурдагы кеңейтүүнү алып салыңыз ",
+                "confirmRemovePlugin": " Кеңейтүүнү чын эле алып салгыңыз келеби?",
+                "cancelUpload": "Жабуу",
+                "install": "Орнотуу",
+                "uploadError": "Орнотууда ката кетти:",
+                "uploadOk": "Кеңейтүү туура орнотулду",
+                "tooltips": {
+                    "enableUserPlugin": " Колдонуучуга учурдагы плагинди тандоого уруксат берүү",
+                    "disableUserPlugin": " Колдонуучуга учурдагы плагинди тандоого тыюу салуу",
+                    "activatePlugin": " Иштеп жатканда плагинди жүктөөнү иштетүү",
+                    "deactivatePlugin": "Иштеп жатканда плагинди жүктөөнү өчүрүү",
+                    "editConfiguration": "Плагиндин орнотмолорун өзгөртүү",
+                    "pluginDocumentation": "Плагиндин орнотмолору боюнча кагаздарды ачуу",
+                    "uploadPlugin": "MapStore кеңейтмесин кошуу",
+                    "removePlugin": "MapStore кеңейтмесин өчүрүү",
+                    "mapTemplatesConfig": "Шаблондор орнотмосу"
+                },
+				"tutorialPlugins": {
+                    "availableTitle": "Жеткиликтүү плагин",
+                    "availableDescription": "Бул плагин артка кайтарылды",
+                    "enabledTitle": "Плагинге уруксат берүү",
+                    "enabledDescription": "Плагинге уруксат берилди"
+				},
+                "saveCfgErrorNotification":  {
+                    "title": "Плагинди орнотууда синтетикалык ката кетти",
+                    "message": "Плагин \"{pluginName}\" орнотмо катасын камтыйт. Сураныч, улантуудан мурун тууралаңыз"
+                }
+            },
+            "configureTemplates": {
+                "title": "Шаблондордун орнотмосу",
+                "availableTemplates": "Жеткиликтүү шаблондор",
+                "enabledTemplates": "Күйгүзүлгөн шаблондор",
+                "templatesFilterPlaceholder": "Шаблондорду аттары боюнча чыпкалоо...",
+                "availableTemplatesEmpty": "Бардык жеткиликтүү шаблондор күйгүзүлдү",
+                "enabledTemplatesEmpty": "Жеткиликтүү шаблондордун тизмесинин арасынан шаблондордун орнотмонун кошуңуз",
+                "searchResultsEmpty": "Изделип жаткан шаблондор табылган жок",
+                "fileDrop": {
+                    "label": "Шаблон",
+                    "clear": "Карта шаблонунун файлын тандоо үчүн өчүрүңүз же чычканды басыңыз (JSON MapStore экспорттолгон карталары же WMC файлдары колдоого алынган)"
+                },
+                "uploadDialog": {
+                    "title": "Карталардын шаблондорун жүктөө",
+                    "save": "Жүктөө",
+                    "jsonParsingError": "JSON анализдөөдө мүчүлүштүк кетти: \"{error}\"",
+                    "fileReadError": "Файлды окууда күтүүсүздөн ката кетти"
+                },
+                "tooltips": {
+                    "uploadTool": "Жаңы шаблонду жүктөө",
+                    "editTemplate": "Шаблондордун каситеттерин жүктөө",
+                    "deleteTemplate": "Шаблонду өчүрүү"
+                },
+                "deleteError": "Шаблон өчүрүлгөн жок, өчүрүү убагында ката кетти",
+                    "deleteConfirm": "Бул шаблонду чын эле өчүрөсүзбү? \"{templateName}\"?"
+            },
+            "configureMap": {
+                "label": "Картаны орнотуу",
+                "reload": "Картаны кайра жүктөө",
+                "confirm": "Учурдагы өзгөрүүлөрдүн бардыгын артка кайтарасызбы? Улантасызбы?"
+            },
+            "saveErrorNotification": {
+                "titleContext": "Контекст сакталган жок",
+                "titleTemplate": "Шаблон сакталган жок",
+                "conflict": "Мындай ат менен ресурс мурунтан бар",
+                "defaultMessage": "Белгисиз ката",
+                "categoryError": "Жетпей жаткан категорияны түзүү ийгиликтүү болгон жок \"{categoryName}\" "
+            },
+            "loadTemplateErrorNotification": {
+                "forbidden": "Шаблондун маалыматтарына жетүүгө мүмкүн эмес, колдонуучунун уруксаты жок!",
+                "defaultMessage": "Күтүүсүздөн ката кетти"
+            },
+            "contextNameErrorNotification": {
+                "title": "Контексттин аталышы туура эмес",
+                "unknownError": " Күтүүсүздөн ката кетти"
+            },
+            "undo": "Контекстти түзөтүүнү улантууну токтосузбу??",
+			"showTutorial": "Маалымдаманы көрсөтүү"
+        },
+        "contextManager": {
+			"title": "Контекстти башкаруу",
+			"gridTitle": "Контексттер",
+			"searchPlaceholder": "издөө...",
+			"newContext": "Жаңы Контекст",
+			"editContextTooltip": "Контекстти түзөтүү"
+        },
+        "userExtensions": {
+          "title": "Колдонуучунун кеңейтүүлөрү",
+          "emptyTitle": "Жыйынтыктар жок",
+          "emptyDescription": "Жазылган чыпка эч кандай аталышы менен, кандайдыр бир кеңейтүүнүн сүрөттөлүшүнө дал келбейт",
+          "filterPlaceholder": "Чыпкалоо...",
+          "addExtension": "Кеңейтүүнү кошуу",
+          "removeExtension": "Кеңейтүүнү өчүрүү"
+        },
+        "mapTemplates": {
+            "title": "Карталардын шаблону",
+            "favouritesTitle": "Тандалган",
+            "allTitle": "Бардыгы",
+            "filterPlaceholder": "Карталардын шаблонун чыпкалоо...",
+            "transfer": "Ушул шаблон менен картаны алмаштыруу",
+            "merge": "Ушул шаблонду картага кошуу",
+            "favouriteAdd": "Тандалгандарга кошуу",
+            "favouriteRemove": "Тандалгандардан өчүрүү",
+            "emptyTitle": "Жыйынтык жок",
+            "emptyDescription": " Жазылган чыпка эч кандай аталышы менен, кандайдыр бир шаблондун сүрөттөлүшүнө дал келбейт ",
+            "noTemplatesTitle": "Шаблондор табылган жок",
+            "noTemplatesDescription": "Учурдагы контекст шаблондорду камтыбайт",
+            "confirmReplaceTitle": "Картанын мазмунун алмаштыруу",
+            "confirmReplaceMessage": "Сиз алмаштыруу деген баскычты басуу менен бардык катмарларды жана карталардын орнотмолорун тандалган шаблон менен алмаштырып саласыз",
+            "confirmReplaceConfirmButton": "Алмаштыруу"
+        },
+        "mapCatalog": {
+            "title": "Карталардын каталогу",
+            "filterPlaceholder": "Карталар боюнча издөө...",
+            "deleteConfirmContent": "Картаны өчүргөнү жатасызбы \"{mapName}\" ?",
+            "tooltips": {
+                "edit": "Касиеттерин өзгөртүү",
+                "delete": "Ресурсту өчүрүү",
+                "share": "Бөлүшүү"
+            },
+            "deletedMap": {
+                "title": "Өчүрүлгөн Карта",
+                "message": "Карта ийгиликтүү өчүрүлдү"
+            },
+            "updatedMap": {
+                "title": "Сакталган Карта",
+                "message": "Карта ийгиликтүү сакталды"
+            },
+            "deleteError": "Картаны өчүрүүдө күтүүсүздөн ката кетти",
+            "updateError": "Картаны сактоодо күтүүсүздөн ката кетти"
+        },
+        "tutorial": {
+            "title": "Жетектөөчү",
+            "back": "Артка",
+            "next": "Алдыга",
+            "close": "Жабуу",
+            "skip": "Өткөрүп жиберүү",
+            "last": "Аяктоо",
+            "start": "Баштоо",
+            "checkbox": "Бул маалымдаманы кайрадан көргөзбөө",
+            "error": "Ката: максат табылган жок",
+            "intro": {
+                "title": "MapStoreго кош келдиңиз",
+                "text": " OpenLayers жана Leaflet сыяктуу стандарттуу картографиялык китепканаларды колдонуп, веб-карта тиркемелерин курууга негиз."
+            },
+            "drawerMenu": {
+                "title": "Башкы меню",
+                "text": " Катмарларды башкаруу боюнча маалыматтарды жана куралдарды таба аласыз"
+            },
+            "searchBar": {
+                "title": "Издөө панели",
+                "text": "Табуу үчүн жердин дарегин жазыңыз. Мисалы,'1st avenue, new york'. Координаттарды төмөндөгүдөй форматта киргизиңиз: 43.87,10.20"
+            },
+            "home": {
+                "title": "Үйгө",
+                "text": "Башкы бетке өтүү үчүн басыңыз"
+            },
+            "searchButton": {
+                "title": "Издөө",
+                "text": "Табуу үчүн издөө панелин ачыңыз, жердин дарегин жазыңыз, мисалы ‘1st avenue, new york'. Координаттарды төмөндөгүдөй форматта жазыңыз: 43.87,10.20"
+            },
+            "burgerMenu": {
+                "title": "Параметрлер менюсу",
+                "text": "Сиз орнотмолорду жана жардам параметрлерин таба аласыз"
+            },
+            "zoomInButton": {
+                "title": "Чоңойтуу",
+                "text": "Картаны чоңойтуу үчүн басыңыз"
+            },
+            "zoomOutButton": {
+                "title": "Кичирейтүү",
+                "text": "Картаны кичирейтүү үчүн басыңыз"
+            },
+            "fullscreen": {
+                "title": "Толук экрандуу режими",
+                "text": "Толук экрандуу режимге өтүү үчүн басыңыз"
+            },
+            "identifyButton": {
+                "title": "Маалымат",
+                "text": "куралды иштетүү үчүн баскычты басыңыз, катмарлардан маалымат алууга картаны басыңыз"
+            },
+            "mapType": {
+                "title": "Китепкана",
+                "text": " Карталарыңызды көрсөтүү үчүн Leaflet же OpenLayers тандай аласыз"
+            },
+            "mapsGrid": {
+                "title": "Карталар",
+                "text": "MapStore бир нече мисалдары. Демо колдонууну байкап көрүү үчүн сүрөткө басыңыз."
+            },
+            "examples": {
+                "title": "Колдонуу тиркемеси",
+                "text": "Колдонуу тиркемелерин түзүү үчүн Сиз MapStore плагин жана компоненттерин колдоно аласыз"
+            },
+            "introCesium": {
+                "title": "3D-карталардын колдонуу көрсөтмөлөрү",
+                "text": "Окуу китебин ачуу үчүн кийинки баскычты басыңыз"
+            },
+            "cesium": {
+                "title": "Карта менен аракеттер",
+                "pan": "Көрүнүштү борборлоштуруу",
+                "zoom": "Көрүнүштү чоңойтуу",
+                "tilt": " Көрүнүштү кыйшайтуу",
+                "rotate": "Көрүнүштү буруу",
+                "oneDrag": "Бир манжаңыз менен сүйрөө",
+                "twoPinch": " Эки манжаңыз менен кармаңыз",
+                "twoDragSame": " Эки манжаңыз менен бир жакка сүйрөңүз",
+                "twoDragOpposite": " Эки манжаңыз менен, карама-каршы багытта сүйрөңүз",
+                "leftClick": " Чычкандын сол баскычын басыңыз + сүйрөө",
+                "rightClick": "Чычкандын оң баскычын басыңыз + сүйрөө же чычкандын дөңгөлөгүн айлантуу",
+                "middleClick": "Орточо басуу + сүйрөө, же CTRL + Left/Right басуу + сүйрөө"
+
+            },
+            "cesiumCompass": {
+                "title": "Компас",
+                "text": "Жер шаарында айлануу үчүн компас колдонсоңуз болот. Картаны буруу үчүн сүйрөңүз"
+            },
+            "cesiumNavigation": {
+                "title": "Навигация",
+                "text": "Чоңойтуу жана кичирейтүү баскычтарын бул жерден таба аласыз"
+            },
+            "dashboardIntro": {
+                "title": "Мониторинг панелдеринин окуу куралы",
+                "text": " Куралдар панелинин иштөө көрүнүшү"
+            },
+            "dashboardNav": {
+                "title": "Навигациялык панели",
+                "text": "Бул жерден тил тандоо, кирүү, үй бети көздөй шилтеме жана параметрлер менюсун таба аласыз "
+            },
+            "dashboardContainer": {
+                "title": "Мониторинг панели",
+                "text": "<p>MapStore' мониторинг панели бир көз ирмемди көрсөтүү үчүн ыңгайлуу болуп чогулган маалыматтардын топтому болуп саналат. Картадагы көрсөтүлгөн геомейкиндиктеги маалыматтарды тиешелүү атрибуттук таблицалардын, диаграммалардын жана башкалардын жанына, бир контекстке тиешелүү ар кандай түрдөгү маалыматтарды, статистикалык деталдарды жана тексттер менен сүрөттөлүштөрдү бириктирүү максатында жайгаштырууга болот.</p><p> Бардык колдонуучулар жарыяланган панелдерди элестетип, алар менен иштеше алышат, бирок түзөтүүгө уруксат берилген колдонуучулар гана панелдин ичиндеги бардык виджеттерди кошуп, иреттеп, өлчөмүн өзгөртүп же жок кыла алышат.</p>"
+            },
+            "dashboardAddWidget": {
+                "title": "Виджет кошуу",
+                "text": "Мониторинг панелине виджет кошуу үчүн + баскычын басыңыз"
+            },
+            "dashboardBuilder": {
+                "title": "Жаңы виджет түзүү",
+                "text": "Мониторинг панелине тизмеден бир элементти тандап кошуп, керектүү виджеттин түрүн тандай аласыз."
+            },
+            "dashboardAddChart": {
+                "title": "Диаграмманын виджети",
+                "text": "<p>Бул маалыматтарды айлана, түз сызык же тилке диаграммалар түрүндө көрсөтөтүүчү жана бириктирүүчү виджет. </p><p>Шаги:</p><p><ul><li>Вектордук катмарды тандаңыз</li><li>Диаграмманын түрүн тандаңыз</li><li>Диаграмманын орнотмолорун тандаңыз</li><li>Мониторинг панелине кошуңуз жана сактаңыз</li></ul></p>"
+            },
+            "dashboardAddText": {
+                "title": "Тексттик Виджет",
+                "text": "<p>Мониторинг панелине өзүңүздүн текстиниңизди кошуңуз.</p><p>Шаги:</p><p><ul><li>Түзөтүүдөн текстти түздөңүз</li><li>Мониторинг панелин кошунуз жана сактаңыз</li></ul></p>"
+            },
+            "dashboardAddTable": {
+                "title": "Таблица Виджети",
+                "text": "<p>Тандалган вектор катмарынын маалыматтарынан турган атрибуттар таблицасын мониторинг панелине кошуңуз. Ошондой эле, өзүңүздүн таблицаңызды орнотуу үчүн маалыматтарды чыпкалай аласыз.</p><p>Кадамдар:</p><p><ul><li>Вектордук катмарды тандоо</li><li>Таблицанын маалыматтарын орнотуу</li><li>мониторинг панелине кошуу жана сактоо</li></ul></p>"
+            },
+            "dashboardAddCounter": {
+                "title": "виджет эсептегичи",
+                "text": "<p>Мониторинг панелине жаңы эсептегич кошуу. Эсептегич тандалган вектордук катмардан алынган сандык баалуулуктардын жыйындысын көрсөтөт. </p><p>Кадамдар:</p><p><ul><li>Вектордук катмарды тандоо</li><li>Эсептегичтин маалыматтарын орнотуу</li><li>Мониторинг панелин кошуу жана сактоо</li></ul></p>"
+            },
+            "dashboardAddMap": {
+                "title": "Карталар Виджети",
+                "text": "<p>Мониторинг панелине жаңы интерактивдик карта кошуу. Аларга башка виджеттерди туташтыруу мүмкүнчүлүгү менен бир нече карталарды кошсоңуз болот. Биринчи картаны сактагандан кийин, виджеттин легендасы тизмеге кошулат. Виджеттин легендасы туташкан картага байланыштуу легенданы көрсөтөт.</p><p>Шаги:</p><p><ul><li>Картаны тандоо</li><li>Жаңы катмарларды кошуу менен картаны жакшыртуу</li><li>Мониторинг панелине кошуу жана сактоо</li></ul></p>"
+            },
+			"contextCreator": {
+                "generalSettings": {
+                    "intro": {
+                        "title": "Контекст түзүү үчүн колдонмо",
+                        "text": " Бул MapStore контексттерин түзүү жана түзөтүү үчүн этап-этабы бар колдонмо"
+                    },
+                    "stepsOverview": {
+                        "title": "Контекст жаратуучунун кадамдары",
+                        "text": "<p>Ар бир контекст уч баскыч менен жаралат:</p><p><ul><li>Жалпы орнотмолор</li><li>Configure Map</li><li>Картаны тууралоо</li></ul></p>"
+                    },
+                    "navigation": {
+                        "next": {
+                            "title": "Багыттоо: Кийинки",
+                            "text": "<p>Кийинки кадамга өтүү үчүн ушул баскычты басыңыз. Эгер баскыч өчүк болсо, Сиз тууралаган маалыматтар текшерилип жатат же алар туура эмес.</p>"
+                        },
+                        "back": {
+                            "title": "Багыттоо: Артка",
+                            "text": "<p>Мурунку кадамга өтүү үчүн ушул баскычты басыныз.</p>"
+                        },
+                        "close": {
+                            "title": "Багыттоо: Жабуу",
+                            "text": "<p> Контекст түзүү процессин сактабастан чыгуу үчүн ушул баскычты басыңыз. Бул жаратуу процессинин каалаган учурунда жасалышы мүмкүн...</p>"
+                        }
+                    },
+                    "fields": {
+                        "title": "Жалпы тууралоолор",
+                        "text": "<p>Контекст ачык жана иштеп жаткан убагында, браузер терезесинин аты катары колдонулуучу аталышын, анын уникалдуу URL дарегин аныктоочу контексттин атын, түзүүнүн биринчи кадамында көрсөтүү керек. Эскертүү. Контексттик аталышта латын тамгалары, 0-9 сандары жана асты сызык белгиси гана болушу мүмкүн. Терезенин аталышы бош болбошу керек. </p>"
+                    },
+                    "showTutorial": {
+                        "title": "Колдонмону көрсөтүү",
+                        "text": "<p> Эгерде сиз дагы бир жолу окуу куралын өтүүнү кааласаңыз, анда каалаган убакта ушул баскычты басып жасай аласыз. </p>"
+                    }
+                },
+                "configureMap": {
+                    "intro": {
+                        "title": "Картаны тууралоо",
+                        "text": "<p>Бул этапта MapStore вьюеренин колдонуу менен контекст жеткиликтүү убакта ачыла турган картаны тууралай аласыз.</p>"
+                    },
+                    "reloadMap": {
+                        "title": "Reload Map Button",
+                        "text": "<p> Эгер сиз картадагы бардык өзгөртүүлөрдү жокко чыгарып, башынан баштоону кааласаңыз, анда ушул баскычты басып, аны жасай аласыз. </p>"
+                    }
+                },
+                "configurePlugins": {
+                    "intro": {
+                        "title": "Плагиндерди тууралоо",
+                        "text": "<p>Бул кадам контекстте бар плагиндерди тууралоого уруксат берет.</p>"
+                    },
+                    "availablePlugins": {
+                        "title": "Жеткиликтүү плагиндер",
+                        "text": "<p> Бул тизме контекстке кошууга боло турган, MapStore плагининен турат. Плагинди тандоо үчүн, картасына басыңыз. Ошондой эле, эгерде Сиз CTRL баскычын басып кармап турсаңыз, бир канча плагиндерди тандай аласыз.</p>"
+                    },
+                    "pluginManipulation": {
+                        "title": "Плагиндерди алмаштыруу",
+                        "text": "<p>Тандагандан кийин жеткиликтүү плагиндер оң жактагы мамычага барып толуп калат, бул контекстке киргизилгендигин билгизет. Айрым плагиндер иштеши үчүн башка плагиндерди талап кылат, мындай учурда сиз ачык иштетилген плагиндер менен кошо автоматтык түрдө иштетилет. </p><p> Плагиндерди контексттен алып салуу үчүн плагиндерди \"enabled \" тилкесинен \"available\" тилкесине жылдырууга болот. Эгерде сиз плагинди чыгарып салсаңыз, анда анын иштеши үчүн талап кылынган бардык плагиндер өчүрүлөт, эгерде учурда мындай плагинди талап кылган плагиндер туташтырылбаса.</p>"
+                    },
+                    "enabledPlugins": {
+                        "title": "Күйгүзүлгөн плагиндер",
+                        "text": "<p>Бул тизме контексттеги MapStore плагиндерин камтыйт. Бул жердеги ар бир плагинди андан ары курал баскычтары аркылуу ыңгайлаштырса болот.</p>"
+                    },
+                    "userPlugin": {
+                        "title": "Плагин куралдары: Ыңгайлаштырылган плагиндер",
+                        "text": "<p>Бул баскычты басып, колдонуучунун плагини кылуу менен Сиз плагиндерди колдонуучулар аркылуу күйгүзүп/өчүрүүгө уруксат бересиз. Мындай плагиндер User Extensions плагининде көрсөтүлөт. Жок дегенде бир иштеп жаткан ыңгайлаштырылган плагин болсо, бул плагин автоматтык турдө контекстке кошулат.</p>"
+                    },
+                    "userPluginCheckbox": {
+                        "title": " Плагин куралдары: Ыңгайлаштырылган плагиндер",
+                        "text": "<p> Эгер плагин колдонуучунун плагини болсо, анда бул желекче контекст жүктөлгөндө, колдонуучу плагинин автоматтык түрдө кошуу керектигин аныктайт. </p>"
+                    },
+                    "cfgTool": {
+                        "title": "Плагин куралдары: Тууралоо куралы",
+                        "text": "<p> Бул баскычты бассаңыз, плагиндин демейки конфигурациясын түзөтө турган редактор пайда болот. </p>"
+                    },
+                    "cfgEditor": {
+                        "title": "Плагин куралдары: Конфигурация түзөтүү",
+                        "text": "<p>Түзөткүч синтаксис жарык берүүнү колдойт. Түзөтүү убагында Сиздин бардык өзгөртүүлөрүңүз сакталып турат. Эгер конфигурация синтаксистик ката тапса, Сиз бул жөнүндө маалымдама аласыз. Ката улантуудан мурда оңдолушу керек.</p>"
+                    },
+                    "documentationTool": {
+                        "title": "Плагин куралдары: Документтештирүү",
+                        "text": "<p>Бул баскычты басып, Сиз плагин иш-кагаздарынын бетине туш келесиз, ал жакта плагин эмне кылаарын жана кандай конфигурация параметрлерин колдоноору жөнүндө маалымат таба аласыз. </p>"
+                    },
+                    "mapTemplatesTool": {
+                        "title": "Плагин куралдары: Карталар шаблондору",
+                        "text": "<p>Map Templates плагини, ошондой эле, контекстте жеткиликтүү боло турган, карталардын шаблонун тууралаганга уруксат бере турган атайын куралы бар. </p>"
+                    },
+                    "extensions": {
+                        "title": "Кеңейтүү",
+                        "text": "<p>MapStore ошондой эле, кеңейтилген ыңгайлаштырылган пакеттерди колдойт. Аны бул баскычты басуу менен кыла аласыз.</p>"
+                    },
+                    "extensionsDelete": {
+                        "title": " Кеңейтүү",
+                        "text": "<p>Жүктөлгөн кеңейтүүлөр бул баскычты басуу менен каалаган убагыңызда өчүрө аласыз.</p>"
+                    }
+                }
+            },
+            "geostoryIntro": {
+              "title": "Атластар Окуу куралы",
+              "text": "Атластардын иштөө мүмкүнчүлүктөрү боюнча обзор"
+            },
+            "geostoryViewHeader": {
+              "title": "Аталышы",
+              "text": " Бул жерден тил тандоо, кирүү, үйгө көздөй шилтеме жана орнотуулар менюсун таба аласыз "
+            },
+            "geostoryViewNavItems": {
+              "title": "Калкыма элементтер",
+              "text": " Бул жерден сиз багыттоо / өтүү үчүн колдоно турган атласта болгон элементтерди таба аласыз. Ошондой эле, атластагы учурдагы абалды көрсөтөт "
+            },
+            "geostoryViewNavTitle": {
+              "title": "Атластын аталышы",
+              "text": "Атластын аталышын көрсөтсөңүз болот"
+            },
+            "geostoryViewNavLogo": {
+              "title": "Атластын логотиби",
+              "text": "Атластын логотибин көрсөтсөңүз болот"
+            },
+            "geostoryViewContent": {
+              "title": "Атластын мазмуну",
+              "text": "Атластын мазмуну"
+            },
+            "geostoryViewEditButton": {
+              "title": "Атласты түзөтүү",
+              "text": " Бул жерди басуу менен атластын мазмунун жана орнотууларын түзөтө аласыз "
+            },
+            "geostoryEditSidebar": {
+              "title": "Капталдагы панели",
+              "text": "<p> Каптал тилкесинде сиз ар бир элемент ар башка сөлөкөт менен аныкталган атлас жөнүндө жалпы маалыматты көрө аласыз же сүрөттөрдү, же карталарды алдын ала карап көрө аласыз </p><p>Бул жерден Сиз:</p><ul><li>Бөлүмдүн аталышын же мазмунун өзгөртө аласыз</li><li>Бөлүмдөрдүн мазмундарын ары берүү сүйрөө менен ирээтин өзгөртө аласыз</li><li> Кум сааты баскычын колдонуп, белгилүү бир мазмунду чоңойтуу</li></ul>"
+            },
+            "geostoryEditSidebarToolbar": {
+              "title": "Куралдар",
+              "text": "<p>Солдон онго:</p><ul><li>Тандалган бөлүмдү өчүрүңүз</li><li>Көрүү режимине өтүү</li><li>Тууралоону өзгөртүү</li><li>Бардыгын түрүп коюу / жайып коюу</li></ul>"
+            },
+            "geostoryEditSidebarSettings": {
+              "title": "Атласты тууралоо",
+              "text": "<p>Бул жерден Сиз:</p><ul><li>атластын аталыштарын көрсөтүп/жашырып / түзөтө аласыз</li><li>Атластын темасын түзөтүңүз</li><li>Атластын логотибин көрсөтүп/жашырып / түзөтө аласыз</li><li>Көрүү режиминде багыттоо панелин тууралоо</li></ul><p> Көбүрөөк маалымат алуу үчүн, колдонуучунун тиешелүү колдонмосун караңыз. <a target='_blank' href='https://mapstore.readthedocs.io/en/latest/user-guide/story-setting/'>тут</a>"
+            },
+            "geostoryEditContainer": {
+              "title": "Атластын мазмуну",
+              "text": "<p> Бул жерден атластын мазмунун көрө аласыз, бөлүмдөрдү, абзацтарды жана башкаларды кошуу же алып салуу аркылуу түзөтө аласыз.</p><p> Ар бир куралдар панели, атластын мазмунун башкарууга мүмкүнчүлүк берет, мисалы:</p><img src='data:image/png;base64,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'/><ul><li>изменить источник медиа</li><li>сделать раздел, чтобы адаптировать его к высоте содержимого или подгонять изображение по вертикали</li><li>сделать фон, чтобы закрыть или нет пространство контейнера</li><li>изменить размер</li><li>выровнять контейнер (доступно, если размер не полный)</li><li>смени тему</li></ul><img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAgCAYAAAB3j6rJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAASdEVYdFNvZnR3YXJlAEdyZWVuc2hvdF5VCAUAAAIwSURBVFhHY/wPBAyDADBB6QEHow5BB1R3yIWX7xiOP30N5REPqJJY/wKN2HLnCYMwBztD+YGzYLF+F1OGV19/MHgqSzMwMzKCxfABqjjk4ccvDJ6r9jLc+/AZKgIBSgK8DNvDnBnk+XmgIrgBVaKGg4WZgYuVmYGfnZWh39mUYbanJYMQJzsDEzAgWJiIs4KgKlCwf/z5G8rDBM++fGOwWbKD4crrDwzOCpIMGYbqDLE6ygzO8hIMd95/ZnBYthOshhAg6JCXX78zmCzYwiA/bS1D3OYjDPsfvmD49vsPw4ZbjxjqDl1gYGdmZljgbc0gxs3BcPr5W4bzr94xXHvzgeHci3dgMZCcODcn1DTcgOioATlo1Y0HDPMu3Wa4ArQofcdxhp5TVxmmnrvBoC7ExyABtOzxp68MVou2MRjN38JwF5heQGIgOWISK0Vp5B8w2q69+cjAycrC4KMsw9BsZ8ggw8sFxiC2jYwYAwszldIIIbD59mOGiWeuM1Rb6zGUmmsDsQ5Dg40BmN0HTLgC7GxQlfgBxQ4BJeb5l+4w3H73CewgN0UpBmtgSIDYn37hTuTogGKHIANQAtacvQGMQWxSAFUdQgkYdQg6GDoOYQOWnLJ83DgLJS5gGWIkLgSsZ9iAtDDR2RUdEF37/vr7j+HG24/gElNfTJDhyONX4LpFioeLAd2NL4ClMKjuAWVjTmCFSAwYbTyjg1GHoINRh6CDUYegg1GHoINB4hAGBgDB977viofL1wAAAABJRU5ErkJggg=='/><p>этот значок позволит вам редактировать связанную карту</p><img src=''/><b>Tip: </b>У каждого инструмента есть всплывающая подсказка, наведите на нее курсор мыши, чтобы увидеть больше"
+            },
+            "geostoryEditAddbar": {
+              "title": "Добавить Новый Контент",
+              "text": "<p>Здесь вы можете добавить различные виды разделов:</p><p><img src='data:image/png;base64,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'/></p><ul><li>Раздел заголовка</li><li>Раздел абзацаli><li>Раздел погружения</li><li>Медиа-раздел</li><li>Раздел веб-страницы</li></ul>"
+            },
+            "geostoryEditMediaEditor": {
+              "title": "Медиа түзөтүүсү",
+              "text": " Бул жерден атласка кошула турган сүрөттөрдү же карталарды тандай аласыз"
+            }
+        },
+       "userSession": {
+          "saveErrorNotification": {
+            "titleContext": " Колдонуучунун сеансы сакталган жок",
+            "categoryError": " Жоголгон \"{categoryName}\" категориясын түзүү токтотулду",
+            "defaultMessage": "Белгисиз ката"
+              },
+          "removeErrorNotification": {
+            "titleContext": " Колдонуучу сеансы өчүрүлгөн жок",
+            "defaultMessage": "Белгисиз ката"
+          },
+          "successRemoved": " Колдонуучунун сеансы өчүрүлдү",
+          "remove": " Колдонуучу сеансын баштапкы абалга келтирүү",
+          "confirmRemove": "Демейки конфигурацияны калыбына келтиргиңиз келеби??"
+          }
+    }
+}
