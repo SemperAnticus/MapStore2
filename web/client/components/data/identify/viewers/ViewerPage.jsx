@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 /**
  * Copyright 2016, GeoSolutions Sas.
@@ -8,21 +8,25 @@ import PropTypes from 'prop-types';
  * LICENSE file in the root directory of this source tree.
  */
 
-import React from 'react';
+import React from "react";
 
 export default class extends React.Component {
     static propTypes = {
         format: PropTypes.string,
         viewers: PropTypes.oneOfType([PropTypes.func, PropTypes.object]),
-        response: PropTypes.oneOfType([PropTypes.string, PropTypes.object, PropTypes.node]),
-        layer: PropTypes.object
+        response: PropTypes.oneOfType([
+            PropTypes.string,
+            PropTypes.object,
+            PropTypes.node,
+        ]),
+        layer: PropTypes.object,
     };
 
     onTouchStart = (event) => {
         const touch = event.touches[0];
         this.startX = touch.pageX;
         this.startY = touch.pageY;
-        this.setState({scrolling: false});
+        this.setState({ scrolling: false });
     };
 
     onTouchMove = (event) => {
@@ -33,7 +37,10 @@ export default class extends React.Component {
             return;
         }
         // identify direction
-        if (Math.abs(this.startY - touch.pageY) > Math.abs(this.startX - touch.pageX)) {
+        if (
+            Math.abs(this.startY - touch.pageY) >
+            Math.abs(this.startX - touch.pageX)
+        ) {
             // vertical scrolling
             event.stopPropagation();
             return;
@@ -41,38 +48,65 @@ export default class extends React.Component {
         // > 0 left, < 0
         const dir = this.startX < touch.pageX ? "left" : "right";
 
-        if (div && dir === "left" && ((div.clientWidth < div.scrollWidth && div.scrollLeft !== 0) )) {
+        if (
+            div &&
+            dir === "left" &&
+            div.clientWidth < div.scrollWidth &&
+            div.scrollLeft !== 0
+        ) {
             // left border not reached
-            this.setState({scrolling: true});
+            this.setState({ scrolling: true });
             event.stopPropagation();
-
-        } else if (div && dir === "right" && div.clientWidth + div.scrollLeft !== div.scrollWidth ) {
+        } else if (
+            div &&
+            dir === "right" &&
+            div.clientWidth + div.scrollLeft !== div.scrollWidth
+        ) {
             // right border not reached
-            this.setState({scrolling: true});
+            this.setState({ scrolling: true });
             event.stopPropagation();
         }
-
     };
 
     onTouchEnd = () => {
-        this.setState({scrolling: false});
+        this.setState({ scrolling: false });
     };
 
     renderPage = () => {
-        const Viewer = typeof this.props.viewers === 'function' ? this.props.viewers : this.props.viewers[this.props.format];
+        const Viewer =
+            typeof this.props.viewers === "function"
+                ? this.props.viewers
+                : this.props.viewers[this.props.format];
         if (Viewer) {
-            return <Viewer response={this.props.response} layer={this.props.layer}/>;
+            return (
+                <Viewer
+                    response={this.props.response}
+                    layer={this.props.layer}
+                />
+            );
         }
         return null;
     };
 
     render() {
-        return (<div
-            style={{width: "100%", height: "100%", overflowX: 'auto'}}
-            onTouchMove={this.onTouchMove}
-            onTouchStart={this.onTouchStart}
-            onTouchEnd={this.onTouchEnd}>
-            {this.renderPage()}
-        </div>);
+        return (
+            <div
+                style={{ width: "100%", height: "100%", overflowX: "auto" }}
+                onTouchMove={this.onTouchMove}
+                onTouchStart={this.onTouchStart}
+                onTouchEnd={this.onTouchEnd}
+            >
+                <button
+                    onClick={() => {
+                        let features = this.props.response.features;
+                        var data = features[0].properties;
+                        console.log("data", data);
+                    }}
+                >
+                    Отправить данные на почту
+                </button>
+                {this.renderPage()}
+            </div>
+        );
     }
 }
