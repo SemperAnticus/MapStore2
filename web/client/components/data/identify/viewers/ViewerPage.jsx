@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 
+import Button from "../../../misc/Button";
 /**
  * Copyright 2016, GeoSolutions Sas.
  * All rights reserved.
@@ -9,6 +10,8 @@ import PropTypes from "prop-types";
  */
 
 import React from "react";
+import ConfirmDialog from "../../../misc/ConfirmDialog";
+import { InputTextFloatingFilterComp } from "ag-grid-community/dist/lib/filter/floatingFilter";
 
 export default class extends React.Component {
     static propTypes = {
@@ -96,15 +99,34 @@ export default class extends React.Component {
                 onTouchStart={this.onTouchStart}
                 onTouchEnd={this.onTouchEnd}
             >
-                <button
-                    onClick={() => {
-                        let features = this.props.response.features;
-                        var data = features[0].properties;
-                        console.log("data", data);
+                <div
+                    style={{
+                        width: "100%",
+                        display: "flex",
+                        justifyContent: "center",
                     }}
                 >
-                    Отправить данные на почту
-                </button>
+                    <label>
+                        Ваша электронная почта
+                        <input />
+                    </label>
+                    <Button
+                        onClick={() => {
+                            let features = this.props.response.features;
+                            var data = features[0].properties;
+                            fetch("http://localhost:3000/sendMail", {
+                                method: "POST",
+                                body: JSON.stringify(data),
+                                headers: {
+                                    "Content-type":
+                                        "application/json; charset=UTF-8",
+                                },
+                            });
+                        }}
+                    >
+                        Отправить данные на почту
+                    </Button>
+                </div>
                 {this.renderPage()}
             </div>
         );
