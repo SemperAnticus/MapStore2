@@ -10,8 +10,6 @@ import Button from "../../../misc/Button";
  */
 
 import React from "react";
-import ConfirmDialog from "../../../misc/ConfirmDialog";
-import { InputTextFloatingFilterComp } from "ag-grid-community/dist/lib/filter/floatingFilter";
 
 export default class extends React.Component {
     static propTypes = {
